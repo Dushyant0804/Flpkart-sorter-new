@@ -1,0 +1,317 @@
+/* ───────────────── Main Layout Container ───────────────── */
+.sp-prm-page {
+  padding: 1.5rem 2rem;
+  min-height: 100vh;
+  background:radial-gradient(circle at top left, rgb(249 247 244 / 18%) 0%, transparent 28%), radial-gradient(circle at bottom right, rgb(255 255 255 / 12%) 0%, transparent 30%), linear-gradient(135deg, #ffffff 0%, #fffafa 45%, #ffffff 100%);
+  font-family: 'DM Sans', sans-serif;
+  color: #292524;
+}
+
+/* ───────────────── Header Section ───────────────── */
+.sp-prm-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.sp-prm-header h1,
+.sp-prm-header h2,
+.sp-prm-header h3 {
+  margin: 0;
+  color: #ea580c;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.sp-prm-header p {
+  margin: 4px 0 0;
+  color: #78716c;
+  font-size: 0.9rem;
+}
+
+/* ───────────────── Premium Search Actions Bar ───────────────── */
+.sp-prm-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 6px 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05),
+              0 2px 6px -1px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s ease;
+}
+
+.sp-prm-search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.sp-prm-search-icon {
+  position: absolute;
+  left: 12px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+  pointer-events: none;
+  transition: color 0.2s ease;
+  z-index: 2;
+}
+
+.sp-prm-search-input {
+  width: 190px !important;
+  padding: 9px 32px 9px 36px !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  color: #1e293b !important;
+  background: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 10px !important;
+  outline: none !important;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.sp-prm-search-input::placeholder {
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.sp-prm-search-input:hover {
+  background: #ffffff !important;
+  border-color: #cbd5e1 !important;
+}
+
+.sp-prm-search-wrapper:focus-within .sp-prm-search-icon {
+  color: #ff8c00;
+}
+
+.sp-prm-search-input:focus {
+  background: #ffffff !important;
+  border-color: #ff8c00 !important;
+  box-shadow: 0 0 0 3px rgba(255, 140, 0, 0.18), 
+              0 2px 8px rgba(255, 140, 0, 0.08) !important;
+}
+
+.sp-prm-search-clear {
+  position: absolute;
+  right: 10px;
+  background: #e2e8f0;
+  border: none;
+  color: #64748b;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 2;
+}
+
+.sp-prm-search-clear:hover {
+  background: #ff8c00;
+  color: #ffffff;
+}
+
+.sp-prm-reset-btn {
+  background: transparent !important;
+  border: 1px solid #e2e8f0 !important;
+  color: #64748b !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  padding: 8px 14px !important;
+  font-size: 0.85rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.sp-prm-reset-btn:hover {
+  background: #f1f5f9 !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+/* ───────────────── Table Card Container ───────────────── */
+.sp-prm-table-card {
+  background: rgba(255,255,255,0.95);
+  border: 1px solid rgba(251,146,60,0.16);
+  border-radius: 22px;
+  padding: 1rem;
+  overflow: hidden;
+
+  box-shadow:
+    0 10px 30px rgba(255,140,0,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.7);
+
+  backdrop-filter: blur(12px);
+}
+
+.sp-prm-table-card .p-datatable {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+/* Table Header */
+.sp-prm-table-card .p-datatable-thead > tr > th {
+  background: linear-gradient(135deg, #fff7ed, #ffedd5) !important;
+  color: #9a3412 !important;
+
+  font-size: 0.78rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.4px;
+
+  padding: 0.9rem 0.8rem !important;
+
+  border: none !important;
+  border-bottom: 1px solid #fed7aa !important;
+  text-align: center !important;
+}
+
+/* Table Body */
+.sp-prm-table-card .p-datatable-tbody > tr > td {
+  background: rgba(255,255,255,0.92) !important;
+  color: #44403c !important;
+
+  font-size: 0.83rem !important;
+  font-weight: 500;
+
+  padding: 0.85rem 0.8rem !important;
+
+  border: none !important;
+  border-bottom: 1px solid #ffedd5 !important;
+
+  transition: background 0.18s ease;
+  text-align: center !important;
+}
+
+.sp-prm-table-card .p-datatable-tbody > tr:nth-child(even) > td {
+  background: #fffaf5 !important;
+}
+
+.sp-prm-table-card .p-datatable-tbody > tr:hover > td {
+  background: #fff1e6 !important;
+}
+
+/* Table Wrapper */
+.sp-prm-table-card .p-datatable-wrapper {
+  border-radius: 14px;
+}
+
+/* Custom Scrollbar */
+.sp-prm-table-card .p-datatable-wrapper::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.sp-prm-table-card .p-datatable-wrapper::-webkit-scrollbar-thumb {
+  background: linear-gradient(#fb923c, #f97316);
+  border-radius: 999px;
+}
+
+/* Paginator */
+.sp-prm-table-card .p-paginator {
+  background: #fffaf5 !important;
+  border: none !important;
+  border-top: 1px solid #ffedd5 !important;
+
+  padding: 0.8rem 0.5rem !important;
+}
+
+/* Active Page Highlight */
+.sp-prm-table-card .p-paginator .p-paginator-page.p-highlight {
+  background: linear-gradient(135deg,#fb923c,#f97316) !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+/* Normal Paginator Buttons */
+.sp-prm-table-card .p-paginator .p-paginator-page,
+.sp-prm-table-card .p-paginator .p-paginator-prev,
+.sp-prm-table-card .p-paginator .p-paginator-next {
+  color: #9a3412 !important;
+}
+
+/* Hover Paginator Buttons */
+.sp-prm-table-card .p-paginator .p-paginator-page:hover,
+.sp-prm-table-card .p-paginator .p-paginator-prev:hover,
+.sp-prm-table-card .p-paginator .p-paginator-next:hover {
+  background: #ffedd5 !important;
+  border-radius: 8px;
+}
+
+/* Dropdown Inside Table Card */
+.sp-prm-table-card .p-dropdown {
+  border-radius: 10px !important;
+  border: 1px solid #fed7aa !important;
+}
+
+/* Loading Overlay */
+.sp-prm-table-card .p-datatable-loading-overlay {
+  background: rgba(255,255,255,0.7) !important;
+  backdrop-filter: blur(3px);
+}
+
+/* ───────────────── Status Badges ───────────────── */
+.sp-prm-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  min-width: 110px;
+}
+
+.sp-prm-badge-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 4px;
+}
+
+/* Sorted Status */
+.sp-prm-badge-sorted {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(34, 197, 94, 0.3);
+}
+
+/* Exception Status */
+.sp-prm-badge-exception {
+  background: linear-gradient(135deg, #f59e0b, #fbbf24);
+  color: #1f2937;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+/* Rejected Status */
+.sp-prm-badge-rejected {
+  background: linear-gradient(135deg, #dc2626, #ef4444);
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+/* Default Status */
+.sp-prm-badge-default {
+  background: #e1d8de !important;
+  color: #374151 !important;
+  border: 1px solid #d1d5db;
+  box-shadow: none !important;
+}
+
+/* Badge Icon */
+.sp-prm-badge-icon {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}

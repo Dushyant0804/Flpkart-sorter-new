@@ -1,0 +1,654 @@
+/* ================= PAGE ================= */
+
+.bags-page {
+  background: linear-gradient(135deg, #fff8f7 0%, #f8fafc 50%, #f1f5f9 100%);
+  
+  padding: 24px;
+  margin-top: 30px;
+  margin-left: 30px;
+
+  width: calc(100% - 60px);
+  height: 600px;
+
+  overflow-x: auto;
+  object-fit: contain;
+
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+
+  /* Beautiful Shadow */
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.04);
+
+  color: #1e293b;
+
+  /* Optional glass effect */
+  backdrop-filter: blur(10px);
+
+  transition: all 0.3s ease;
+}
+.bags-page:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 16px 35px rgba(0, 0, 0, 0.12),
+    0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+
+/* ================= MAIN ================= */
+
+.layout-container {
+  width: fit-content;
+  margin: auto;
+}
+
+/* ================= TOP ================= */
+
+.top-section {
+  display: flex;
+  gap: 34px;
+  justify-content: center;
+}
+
+/* ================= BOTTOM ================= */
+
+.bottom-section {
+  margin-top: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 34px;
+}
+
+/* ================= BOTTOM GRIDS ================= */
+
+.bottom-grid {
+  display: flex;
+  gap: 22px;
+}
+
+/* ================= COLUMN ================= */
+
+.bag-column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* ================= BAG WRAPPER ================= */
+
+.bag-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ================= LABEL ================= */
+
+.fra-label {
+  color: #727272;
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+/* ================= BAG ================= */
+
+.bag-tile {
+  width: 58px;
+  height: 58px;
+
+  background: #e0bdbd;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;   /* 👈 IMPORTANT */
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+
+  padding: 4px;
+}
+
+.bag-tile:hover {
+  transform: translateY(-2px);
+}
+
+.bag-tile.active {
+  border: 2px solid #ff0033;
+  box-shadow: 0 0 10px rgba(255, 0, 50, 0.4);
+}
+
+/* ================= TEXT ================= */
+
+.bag-count {
+font-size: 15px;
+    font-weight: 800;
+    line-height: 1;
+    color: blue;
+}
+
+.bag-code {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-top: 2px;
+}
+
+/* ================= CARRIAGES ================= */
+
+.carriages {
+  margin-top: 20px;
+
+  width: 100%;
+  height: 88px;
+
+  background: #e39244;
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #2e3440;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+/* ================= CENTER ================= */
+
+.center-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ================= LIFTER ================= */
+
+.lifter {
+  width: 305px;
+  height: 68px;
+
+  background: #e39244;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #2e3440;
+  font-size: 34px;
+  font-weight: 800;
+}
+
+/* ================= ID ROW ================= */
+
+.id-row {
+  margin-top: 28px;
+
+  display: flex;
+  gap: 18px;
+}
+
+/* ================= ID BOX ================= */
+
+.id-box {
+  width: 88px;
+  height: 120px;
+
+  background: #e39244;
+  border-radius: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #2e3440;
+  font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1.1;
+}
+
+/* ================= DIALOG ================= */
+
+.dialog-loader {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wbn-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wbn-list li {
+  padding: 8px 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+.empty-text {
+  text-align: center;
+  color: #888;
+  padding: 12px;
+}
+
+/* ================= LOADING ================= */
+
+.bags-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+
+
+/* ===================================================
+   MODERN BAG DIALOG
+=================================================== */
+
+.modern-bag-dialog .p-dialog-content {
+  padding: 1.2rem !important;
+  background: #f8fafc;
+}
+
+/* ===================================================
+   HEADER
+=================================================== */
+
+.bag-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+.bag-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.bag-icon {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(135deg, #ff7a18, #ffb347);
+
+  color: white;
+
+  font-size: 1.2rem;
+
+  box-shadow:
+    0 10px 22px rgba(255,122,24,0.24);
+}
+
+.bag-header-left h3 {
+  margin: 0;
+
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.bag-header-left p {
+  margin-top: 0.25rem;
+
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+/* ===================================================
+   PLEASE WAIT STATUS
+=================================================== */
+
+.clearing-status {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  padding: 0.55rem 0.9rem;
+
+  border-radius: 999px;
+
+  background: #fff7ed;
+
+  border: 1px solid #fed7aa;
+
+  color: #ea580c;
+
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+
+/* ===================================================
+   LOADER
+=================================================== */
+
+.dialog-loader-modern {
+  min-height: 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+.dialog-loader-modern p {
+  color: #64748b;
+  font-weight: 600;
+}
+
+/* ===================================================
+   EMPTY STATE
+=================================================== */
+
+.empty-state-modern {
+  min-height: 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.empty-icon {
+  width: 90px;
+  height: 90px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(135deg, #fff7ed, #ffedd5);
+
+  color: #ff7a18;
+
+  font-size: 2rem;
+
+  margin-bottom: 1rem;
+}
+
+.empty-state-modern h4 {
+  margin-bottom: 0.4rem;
+
+  font-size: 1.1rem;
+  font-weight: 800;
+
+  color: #1e293b;
+}
+
+.empty-state-modern p {
+  color: #64748b;
+}
+
+/* ===================================================
+   SUMMARY CARD
+=================================================== */
+
+.bag-summary-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 1rem;
+
+  border-radius: 18px;
+
+  background: white;
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow:
+    0 4px 12px rgba(15,23,42,0.04);
+
+  margin-bottom: 1.2rem;
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  text-align: center;
+}
+
+.summary-item span {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.summary-item strong {
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.active-status {
+  color: #16a34a !important;
+}
+
+.summary-divider {
+  width: 1px;
+  height: 40px;
+
+  background: #e2e8f0;
+}
+
+/* ===================================================
+   LIST WRAPPER
+=================================================== */
+
+.wbn-list-wrapper {
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  border: 1px solid #e2e8f0;
+
+  background: white;
+}
+
+/* ===================================================
+   LIST HEADER
+=================================================== */
+
+.wbn-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 1.2rem;
+
+  background:
+    linear-gradient(135deg, #fff7ed, #ffffff);
+
+  border-bottom: 1px solid #e2e8f0;
+
+  font-size: 0.9rem;
+  font-weight: 700;
+
+  color: #ea580c;
+}
+
+/* ===================================================
+   LIST
+=================================================== */
+
+.wbn-list-modern {
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.wbn-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1rem 1.2rem;
+
+  border-bottom: 1px solid #f1f5f9;
+
+  transition: all 0.2s ease;
+}
+
+.wbn-item:hover {
+  background: #fffaf5;
+}
+
+.wbn-left {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.wbn-index {
+  min-width: 38px;
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+
+  background: #fff7ed;
+
+  color: #ea580c;
+
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.wbn-code {
+  font-family: monospace;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+
+  color: #1e293b;
+}
+
+.wbn-check {
+  color: #22c55e;
+  font-size: 1rem;
+}
+
+/* ===================================================
+   FOOTER
+=================================================== */
+
+.bag-dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+
+  margin-top: 1.4rem;
+}
+
+/* ===================================================
+   CANCEL BUTTON
+=================================================== */
+
+.bag-cancel-btn {
+  border: none !important;
+
+  border-radius: 12px !important;
+
+  background: #f1f5f9 !important;
+
+  color: #475569 !important;
+
+  font-weight: 700 !important;
+}
+
+/* ===================================================
+   CLEAR BUTTON
+=================================================== */
+
+.bag-clear-btn {
+  border: none !important;
+
+  border-radius: 12px !important;
+
+  background:
+    linear-gradient(135deg, #ef4444, #dc2626) !important;
+
+  color: white !important;
+
+  font-weight: 700 !important;
+
+  box-shadow:
+    0 10px 20px rgba(239,68,68,0.24);
+}
+
+.bag-clear-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 14px 24px rgba(239,68,68,0.32);
+}
+
+
+.bag-layout-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin-top: 1%;
+  padding: 16px 20px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+  background: #ffffff;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.bags-title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #1e293b;
+  letter-spacing: 0.3px;
+}
+
+/* Button styling */
+.clear-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(220, 38, 38, 0.3);
+}

@@ -1,0 +1,220 @@
+/* BarcodeSearch.css */
+
+.barcode-page {
+    min-height: calc(100vh - 70px);
+    background: #f5f7fa;
+    padding: 30px;
+}
+
+.search-container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+
+.search-header {
+    background: linear-gradient(135deg, #ff6b00, #ff8c42);
+    color: #fff;
+    border-radius: 20px;
+    padding: 28px;
+    margin-bottom: 25px;
+    box-shadow: 0 12px 30px rgba(255, 107, 0, 0.25);
+}
+
+.search-header h2 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.search-header p {
+    margin-top: 8px;
+    opacity: 0.95;
+    font-size: 14px;
+}
+
+/* Search Card */
+
+.search-card {
+    padding: 25px;
+    border-radius: 20px !important;
+    border: none !important;
+    background: #ffffff !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* MUI Input */
+
+.MuiOutlinedInput-root {
+    background: #ffffff;
+    border-radius: 12px !important;
+}
+
+.MuiOutlinedInput-root:hover fieldset {
+    border-color: #ff6b00 !important;
+}
+
+.Mui-focused fieldset {
+    border-color: #ff6b00 !important;
+}
+
+/* Search Button */
+
+.search-btn {
+    height: 56px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(
+        135deg,
+        #ff6b00,
+        #ff8c42
+    ) !important;
+    box-shadow: 0 8px 20px rgba(255, 107, 0, 0.25) !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    font-size: 15px !important;
+}
+
+.search-btn:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Loader */
+
+.loader-box {
+    text-align: center;
+    padding: 40px 20px;
+    color: #666;
+}
+
+.loader-box div {
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+/* Error */
+
+.no-data {
+    margin-top: 25px;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffe69c;
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Result Card */
+
+.result-card {
+    margin-top: 30px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Result Header */
+
+.result-header {
+    background: #fff4ec;
+    color: #ff6b00;
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+/* Result Body */
+
+.result-body {
+    padding: 20px 24px;
+}
+
+/* Rows */
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+/* Labels */
+
+.info-label {
+    color: #666;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Values */
+
+.info-value {
+    color: #222;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Success Status */
+
+.status-success {
+    color: #16a34a;
+    background: #dcfce7;
+    padding: 6px 12px;
+    border-radius: 30px;
+    font-size: 13px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+    .barcode-page {
+        padding: 15px;
+    }
+
+    .search-header {
+        padding: 20px;
+    }
+
+    .search-header h2 {
+        font-size: 22px;
+    }
+
+    .search-card {
+        padding: 18px;
+    }
+
+    .info-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .info-value {
+        width: 100%;
+    }
+}
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

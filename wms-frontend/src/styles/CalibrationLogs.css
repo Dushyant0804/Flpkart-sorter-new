@@ -1,0 +1,227 @@
+.cl-root {
+  padding: 0px;
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #fff8f7 0%,
+    #f8fafc 50%,
+    #f1f5f9 100%
+  );
+  color: #374151;
+}
+/* CARD */
+.cl-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 122, 0, 0.08);
+  box-shadow:
+    0 4px 10px rgba(15, 23, 42, 0.04),
+    0 12px 24px rgba(255, 122, 0, 0.06);
+}
+/* HEADER */
+.cl-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.cl-header h2 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1f2937;
+  letter-spacing: -0.3px;
+}
+.cl-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+/* FILTER BAR */
+.cl-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  background: #fffaf6;
+  padding: 16px;
+  border-radius: 18px;
+  border-left: 5px solid #ff7a00;
+}
+.cl-filter .p-input-icon-left{
+  position:relative;
+
+  display:flex;
+  align-items:center;
+
+  min-width:260px;
+  flex:1;
+  max-width:320px;
+}
+.cl-filter .p-input-icon-left i{
+  left:14px;
+  color:#fb923c;
+  font-size:0.9rem;
+}
+.cl-filter .p-inputtext{
+  width:100%;
+
+  height:44px;
+
+  padding-left:2.4rem;
+
+  background:#ffffff;
+
+  border:1px solid rgba(249,115,22,0.14);
+
+  border-radius:14px;
+
+  color:#374151;
+
+  font-size:0.9rem;
+
+  transition:all 0.18s ease;
+}
+
+.cl-filter .p-inputtext:focus{
+  border-color:#f97316;
+
+  box-shadow:
+    0 0 0 4px rgba(249,115,22,0.12);
+}
+.cl-datetime {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cl-arrow {
+  opacity: 0.6;
+  color: #ff7a00;
+}
+
+/* TABLE */
+.cl-table .p-datatable-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+/* TABLE HEADER */
+.cl-table .p-datatable-thead > tr > th {
+  background: #fffaf6;
+  color: #374151;
+  border: none;
+  border-bottom: 2px solid #ff7a00;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+
+/* TABLE BODY */
+.cl-table .p-datatable-tbody > tr {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(255, 122, 0, 0.06);
+}
+
+
+/* Alternate Rows */
+.cl-table .p-datatable-tbody > tr:nth-child(even) {
+  background: #fffaf6;
+}
+
+/* Hover */
+.cl-table .p-datatable-tbody > tr:hover {
+  background: rgba(255, 122, 0, 0.05);
+}
+
+/* TABLE DATA */
+.cl-table .p-datatable-tbody > tr > td {
+  border: none;
+  color: #374151;
+  font-size: 0.82rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+/* TAG */
+.pr-tag {
+  padding: 0.18rem 0.65rem;
+  font-size: 0.72rem;
+  border-radius: 8px;
+}
+/* PAGINATOR */
+.cl-table .p-paginator {
+  background: #fffaf6;
+  border: none;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 122, 0, 0.08);
+}
+/* PAGINATION BUTTONS */
+.cl-table .p-paginator .p-paginator-page,
+.cl-table .p-paginator .p-paginator-next,
+.cl-table .p-paginator .p-paginator-prev {
+  color: #374151;
+  background: #ffffff;
+  border-radius: 10px;
+  min-width: 34px;
+  height: 34px;
+  transition: 0.2s ease;
+}
+/* Hover */
+.cl-table .p-paginator .p-paginator-page:hover,
+.cl-table .p-paginator .p-paginator-next:hover,
+.cl-table .p-paginator .p-paginator-prev:hover {
+  background: rgba(255, 122, 0, 0.08);
+  color: #ff7a00;
+}
+/* Active Page */
+.cl-table .p-paginator .p-highlight {
+  background: linear-gradient(
+    135deg,
+    #ff7a00,
+    #ffb347
+  ) !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+/* ───────── PASS ───────── */
+.pr-tag--pass{
+  background:
+    linear-gradient(
+      135deg,
+      #22c55e,
+      #16a34a
+    ) !important;
+
+  color:#ffffff !important;
+  border:none !important;
+  padding:0.45rem 0.9rem !important;
+  border-radius:999px !important;
+  font-size:10px !important;
+  font-weight:800 !important;
+  letter-spacing:0.8px;
+  box-shadow:
+    0 8px 18px rgba(34,197,94,0.28);
+  text-transform:uppercase;
+}
+
+/* ───────── FAIL ───────── */
+.pr-tag--fail{
+  background:
+    linear-gradient(
+      135deg,
+      #f97316,
+      #ea580c
+    ) !important;
+
+  color:#ffffff !important;
+  border:none !important;
+  padding:10px 0.9rem !important;
+  border-radius:999px !important;
+  font-weight:800 !important;
+  letter-spacing:0.8px;
+  box-shadow:
+    0 8px 18px rgba(249,115,22,0.30);
+  text-transform:uppercase;
+}

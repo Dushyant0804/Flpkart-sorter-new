@@ -1,0 +1,774 @@
+NDC_CODE,MAPPED_NDC_CODE,MODE,PRIORITY,VOLUME,CLIENT,BAG_TYPE,BAG_IDENTIFIER,PTL_ID,ptl_cutoff_time
+Achampet_Madhuranagar_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0002,0500;2230
+Adaspur_Kantapada_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0002,0030;0430;2030;2230
+Addateegala_Mamidipalem_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0003,0500;2230
+Afzalpur_GanagapurRoad_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0004,0030;0330;0830;1230;1500;2030;2330
+Afzalpur_Usmaniacolony_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0005,0030;0330;0830;1230;1500;2030;2330
+Aland_Sherikarcolony_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0006,0030;0330;0830;1230;1500;2030;2330
+Allagadda_Ramalayam_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0007,0030;0430;2030;2230
+Amalapuram_KNFrd_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0008,0500;2230
+Amalapuram_Ward12_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0009,0500;2230
+Ambikapur_Bouripara_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0010,0030;0430;2030;2230
+Ambikapur_Bouripara_I (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0011,0030;0430;2030;2230
+Ambikapur_Gangapur_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0012,0030;0430;2030;2230
+Ambikapur_Lakhanpur_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0013,0030;0430;2030;2230
+Ambur_Gandhinagar_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0014,430
+Ankola_Baleguli_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0015,0030;0330;0830;1230;1500;2030;2330
+Ankola_Madangeri_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0016,0030;0330;0830;1230;1500;2030;2330
+Arambag_BalibDPP_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0017,0030;0430;2030;2230
+Arambag_Mogalmari_DPP (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0018,0030;0430;2030;2230
+Arani_PolurRd_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0019,430
+Arrah_Pakariabar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0020,0030;0330;0830;1230;1500;2030;2330
+Arrah_Sakaddi_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0021,0030;0330;0830;1230;1500;2030;2330
+Ashta_Saicolony_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0022,0030;0330;0830;1230;1500;2030;2330
+Astaranga_MainRd_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0023,0030;0430;2030;2230
+AtmakurTS_Somsagar_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0024,0500;2230
+Azamgarh_Husanganj_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0025,0030;0430;2030;2230
+Azamgarh_Husanganj_H (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0026,0030;0430;2030;2230
+Azamgarh_Kotwa_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0027,0030;0430;2030;2230
+Azamgarh_Kotwa_I (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0028,0030;0430;2030;2230
+Azamgarh_Martinganj_DPP (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0029,0030;0430;2030;2230
+Azamgarh_Mohammadpur_DPP (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0030,0030;0430;2030;2230
+Badlapur_Barauli1_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0031,0030;0430;2030;2230
+Badvel_Chinthaputhypali_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0032,0030;0430;2030;2230
+Badvel_Porumamilla1_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0033,0030;0430;2030;2230
+Badvel_Temp_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0034,0030;0430;2030;2230
+Bagepalli_Chikballapur_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0035,2100;2130
+Bagodar_Bishungarh_DPP (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0036,0030;0430;2030;2230
+Bahadurganj_Pauakhali_D (Bihar),Bahadurganj_Pauakhali_D (Bihar),S,ANY,ANY,ANY,Surface,Purnia_E,0037,0330;0900;1700;2330
+Bahal_RajgarhRd_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0038,0030;0330;0830;1230;1500;2030;2330
+Baharampur_Nimtala_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0039,0030;0430;2030;2230
+Baikunthpur_Mahlpra_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0040,0030;0430;2030;2230
+Bajore_Sheeshyoo_DPP (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0041,0030;0330;0830;1230;1500;2030;2330
+Bakhtiarpur_DiaraMalahi_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0042,0030;0330;0830;1230;1500;2030;2330
+Bakhtiarpur_Raghopur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0043,0030;0330;0830;1230;1500;2030;2330
+Balarampur_Rangadih_D (West Bengal),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0044,0030;0330;0830;1230;1500;2030;2330
+Balikuda_Balisahi1_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0045,0030;0430;2030;2230
+Ballia_GorkprRd_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0046,0030;0430;2030;2230
+Ballia_Pahteekha_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0047,0030;0430;2030;2230
+Ballia_Sikandarpur_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0048,0030;0430;2030;2230
+Bamra_Govindpur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0049,0030;0430;2030;2230
+Bangalore_AramexVRTL_D (Karnataka),Delhi_Airport_INTL (Delhi),E,ANY,ANY,ANY,Express,INTL_N,0050,0030;0430;2030;2230
+Bangalore_Arekere_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0051,2100;2130
+Bangalore_Attibele_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0052,2100;2130
+Bangalore_Babulayout_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0053,2100;2130
+Bangalore_BenniganaHalli_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0054,430
+Bangalore_ChenapaLayout_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0055,2100;2130
+Bangalore_Chikkakannalli_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0056,2100;2130
+Bangalore_Chinagenahalli_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0057,2100;2130
+Bangalore_Cholanagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0058,2100;2130
+Bangalore_Dasarahalli_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0059,430
+Bangalore_DoddaBanaswadi_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0060,2100;2130
+Bangalore_DommasandraCircle_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0061,2100;2130
+Bangalore_Ganapathipura_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0062,430
+Bangalore_Govindapura_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0063,2100;2130
+Bangalore_Homadevanhali_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0064,2100;2130
+Bangalore_Hongasandra_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0002,2100;2130
+Bangalore_Hosapalaya_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0003,2100;2130
+Bangalore_Hosapalaya_I (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0004,2100;2130
+Bangalore_Hoskote_R (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0005,430
+Bangalore_HSRLayout_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0006,2100;2130
+Bangalore_Hulimangala_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0007,2100;2130
+Bangalore_ITPLSiddapura_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0008,2100;2130
+Bangalore_Jarganahalli_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0009,2100;2130
+Bangalore_Jayanagar_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0010,2100;2130
+Bangalore_Kalyannagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0011,2100;2130
+Bangalore_Kammasandra_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0012,2100;2130
+Bangalore_Kempegowda_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0013,430
+Bangalore_KGAirprt_INTL (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0014,2100;2130
+Bangalore_KonpnaAgrahra_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0015,2100;2130
+Bangalore_Koramangala1_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0016,2100;2130
+Bangalore_Kothanur_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0017,2100;2130
+Bangalore_Kumbaranahali_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0018,2100;2130
+Bangalore_Laggere_C (Karnataka),Bangalore_Hoskote_GW (Karnataka),ANY,ANY,ANY,ANY,Surface,Bangalore_S,0019,430
+Bangalore_Lakshmipuram_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0020,2100;2130
+Bangalore_Lingarajapuram_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0021,2100;2130
+Bangalore_Malleshpalya_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0022,2100;2130
+Bangalore_Mariyannapalya_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0023,2100;2130
+Bangalore_MarthalliNew_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0024,2100;2130
+Bangalore_Mhdvpra_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0025,2100;2130
+Bangalore_Munekollal_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0026,2100;2130
+Bangalore_Nagondanahali_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0027,2100;2130
+Bangalore_NewTipasandra_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0028,2100;2130
+Bangalore_Nspalya2_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0029,2100;2130
+Bangalore_Rankanagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0030,2100;2130
+Bangalore_Rayasandra_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0031,2100;2130
+Bangalore_RoyalCounty_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0032,2100;2130
+Bangalore_RTNagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0033,2100;2130
+Bangalore_RTNagar_D (Karnataka),Bangalore_RTNagar_D (Karnataka),S,ANY,ANY,ANY,Surface,Bangalore_S,0034,430
+Bangalore_Singasandra_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0035,2100;2130
+Bangalore_Soukyaroad_I (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0036,2100;2130
+Bangalore_SoukyaRoad_INTL (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0037,2100;2130
+Bangalore_Thanisandra2_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0038,2100;2130
+Bangalore_UmarNagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0039,2100;2130
+Bangalore_VivekanandaNagar_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0040,2100;2130
+Bangalore_XB_INT (Karnataka),Delhi_Airport_INTL (Delhi),E,ANY,ANY,ANY,Express,INTL_N,0041,0030;0430;2030;2230
+Bangalore_Yelahanka_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0042,2100;2130
+Bangalore_Yellukunte_D (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0043,2100;2130
+Bangarapet_AMPCClny_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0044,2100;2130
+Banka_Amarpur_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0045,0330;0900;1700;2330
+Banka_Jagatpur_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0046,0330;0900;1700;2330
+Banka_Kathoun_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0047,0330;0900;1700;2330
+Barauni_Wardno10_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0048,0030;0330;0830;1230;1500;2030;2330
+Barbigha_Khetalpura_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0049,0330;0900;1700;2330
+Bardhaman_Ulhas_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0050,0030;0430;2030;2230
+Bardhaman_Ulhas_I (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0051,0030;0430;2030;2230
+Bareli_SourvDPP_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0052,0030;0330;0830;1230;1500;2030;2330
+Bareli_Wazirganj_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0053,0030;0330;0830;1230;1500;2030;2330
+Bargarh_Govindpali_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0054,0030;0430;2030;2230
+Bargarh_Sukuda_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0055,0030;0430;2030;2230
+Bargidih_AashirwadBhvn_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0056,0030;0430;2030;2230
+Bargidih_Bagicha1_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0057,0030;0430;2030;2230
+Barhaj_Nandnaward_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0058,0030;0430;2030;2230
+Barhalganj_Lakhnapar_DPP (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0059,0030;0430;2030;2230
+Bariya_Baleur_D (Uttar Pradesh),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Bariya_ChakGirdhar_D (Uttar Pradesh),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0061,0030;0330;0830;1230;1500;2030;2330
+BarkiSaria_Bagodar_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0062,0030;0430;2030;2230
+BarkiSaria_Suriya_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0063,0030;0430;2030;2230
+Barwala_Madhubancolony1_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0064,0030;0330;0830;1230;1500;2030;2330
+Basavakalyan_Morkhandi_DPP (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0065,0030;0330;0830;1230;1500;2030;2330
+Begusarai_Haibatpur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0002,0030;0330;0830;1230;1500;2030;2330
+Begusarai_Mohammadpur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0003,0030;0330;0830;1230;1500;2030;2330
+Begusarai_Mohammadpur_I (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0004,0030;0330;0830;1230;1500;2030;2330
+Begusarai_Panhas_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0005,0030;0330;0830;1230;1500;2030;2330
+Bengaluru_Agrahara_DC (Karnataka),Bangalore_Hosapalaya_I (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0006,2100;2130
+Bengaluru_Chandapura_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0007,2100;2130
+Berasia_Busstand_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0008,0030;0330;0830;1230;1500;2030;2330
+Berasia_Mohanpura_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0009,0030;0330;0830;1230;1500;2030;2330
+Berasia_NarsinghgarhRd_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0010,0030;0330;0830;1230;1500;2030;2330
+Berhampore_Mankara_I (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0011,0030;0430;2030;2230
+Berhampore_Raninagar_I (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0012,0030;0430;2030;2230
+Bethamangala_Sriramatemp_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0013,2100;2130
+Bhadra_Ward37_D (Rajasthan),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0014,0030;0330;0830;1230;1500;2030;2330
+Bhagalpur_Sardarpur_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0015,0330;0900;1700;2330
+Bhatgaon_Bazarpara_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0016,0030;0430;2030;2230
+Bhiwandi_Sabegaon_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0017,2130
+Bhopal_AreraColony_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0018,0030;0330;0830;1230;1500;2030;2330
+Bhopal_BharatNagar_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0019,0030;0330;0830;1230;1500;2030;2330
+Bhopal_Chola_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0020,0030;0330;0830;1230;1500;2030;2330
+Bhopal_Kohefiza_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0021,0030;0330;0830;1230;1500;2030;2330
+Bhopal_Misrod_L (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0022,0030;0330;0830;1230;1500;2030;2330
+Bhopal_Pipaliya_H (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0023,0030;0330;0830;1230;1500;2030;2330
+Bhopal_RajivNagar_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0024,0030;0330;0830;1230;1500;2030;2330
+Bhopal_Sarvdharmcol_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0025,0030;0330;0830;1230;1500;2030;2330
+Bhopal_VardhmanGPark_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0026,0030;0330;0830;1230;1500;2030;2330
+Bhubaneshwar_Baranga_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0027,0030;0430;2030;2230
+Bhubaneshwar_BateswarTmpl_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0028,0030;0430;2030;2230
+Bhubaneshwar_GangaNagar_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0029,0030;0430;2030;2230
+Bhubaneshwar_Indrahousing_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0030,0030;0430;2030;2230
+Bhubaneshwar_Khandagiri_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0031,0030;0430;2030;2230
+Bhubaneshwar_Laxmisagar_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0032,0030;0430;2030;2230
+Bhubaneshwar_Nayapalli2_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0033,0030;0430;2030;2230
+Bhubaneshwar_Raghunathpur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0034,0030;0430;2030;2230
+Bhubaneshwar_SatyaNagar_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0035,0030;0430;2030;2230
+Bhubaneswar_Bampakhuda_GW (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0036,0030;0430;2030;2230
+Bhubaneswar_Chandrasekharpur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0037,0030;0430;2030;2230
+Bhusawal_Kanhala_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0038,0500;2230
+Bidar_AdarshClny_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0039,0030;0330;0830;1230;1500;2030;2330
+Bihta_Kateshwar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0040,0030;0330;0830;1230;1500;2030;2330
+Bihta_Naubatpur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0041,0030;0330;0830;1230;1500;2030;2330
+Bikkavolu_Balabhadhrapuram_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0042,0500;2230
+Birmaharajpur_Sandha_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0043,0030;0430;2030;2230
+BKothakota_Ward1_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0044,0030;0430;2030;2230
+Bokaro_Chas_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0045,0030;0430;2030;2230
+Bokaro_Sector5_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0046,0030;0430;2030;2230
+Boudh_Jogiberini_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0047,0030;0430;2030;2230
+Brajrajnagar_Jagannath_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0048,0030;0430;2030;2230
+Burhanpur_IndustArea_D (Madhya Pradesh),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0049,0500;2230
+Canacona_Shristal_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0050,0030;0330;0830;1230;1500;2030;2330
+CCU_Purbalok_CP (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0051,0030;0330;0830;1230;1500;2030;2330
+Chagalamarri_TeluguGanga_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0052,0030;0430;2030;2230
+Chaibasa_NewClnyTungri_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0053,0030;0330;0830;1230;1500;2030;2330
+Chakai_Bheleraidih_D (Bihar),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0054,0030;0430;2030;2230
+Chakradhar_Sitaram_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0055,0030;0330;0830;1230;1500;2030;2330
+Chanderi_ShreeKunj_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0056,0500;2230
+Chandil_Chawlibasa_DPP (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0057,0030;0330;0830;1230;1500;2030;2330
+Chandi_SH78_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0058,0030;0330;0830;1230;1500;2030;2330
+Chetpet_Savarapoondi_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0059,430
+Chhapra_Newajitola_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Chhapra_Newajitola_I (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0061,0030;0330;0830;1230;1500;2030;2330
+Chhindwara_Kulbhara_D (Madhya Pradesh),Chhindwara_Kulbhara_D (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Chhindwara_W,0062,0030;0330;0830;1230;1500;2030;2330
+Chikkaballapura_WardNo6_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0063,2100;2130
+Chintamani_Prabhakarlayout_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0064,2100;2130
+Chintamani_Sidlaghatta1_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0002,2100;2130
+Chintamani_Ward21_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0003,2100;2130
+Chirgaon_RamnagarRoad_D (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0004,0500;2230
+Chirkunda_Egarkunr1_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0005,0030;0430;2030;2230
+Chirkunda_Egarkunr_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0006,0030;0430;2030;2230
+Chittapur_Wadi_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0007,0030;0330;0830;1230;1500;2030;2330
+Cuddapah_Aravindnagar_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0008,0030;0430;2030;2230
+Cuddapah_Aravindnagar_I (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0009,0030;0430;2030;2230
+Cuddapah_LohiyaNagar_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0010,0030;0430;2030;2230
+Cuddapah_Peddacheppalle_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0011,0030;0430;2030;2230
+Cuddapah_Peddapalle_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0012,0030;0430;2030;2230
+Cuttack_Bharagala_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0013,0030;0430;2030;2230
+Cuttack_Bidanasi_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0014,0030;0430;2030;2230
+Cuttack_Bilteruan1_L (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0015,0030;0430;2030;2230
+Cuttack_Bilteruan_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0016,0030;0430;2030;2230
+Cuttack_CDASector8_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0017,0030;0430;2030;2230
+Cuttack_KhanNgr_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0018,0030;0430;2030;2230
+Cuttack_SliprDPP_DC (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0019,0030;0430;2030;2230
+Dakshinkhanda_BusStand_DPP (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0020,0030;0430;2030;2230
+DalsinghSarai_Bachhawara_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0021,0030;0330;0830;1230;1500;2030;2330
+DalsinghSarai_NawadaChowk_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0022,0030;0330;0830;1230;1500;2030;2330
+Danapur_Ramkrishnapuram_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0023,0030;0330;0830;1230;1500;2030;2330
+Daspalla_Andharkota_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0024,0030;0430;2030;2230
+Datia_BhanderSarfai_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0025,0500;2230
+Datia_Indergarh1_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0026,0500;2230
+Datia_ShardaVihar_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0027,0500;2230
+Delhi_Airport_INTL (Delhi),Delhi_Airport_INTL (Delhi),E,ANY,ANY,ANY,Express,INTL_N,0028,0030;0430;2030;2230
+Delhi_Anandparvat_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0029,0000;0600
+Delhi_AramexVRTL_D (Delhi),Delhi_Airport_INTL (Delhi),E,ANY,ANY,ANY,Express,INTL_N,0030,0030;0430;2030;2230
+Delhi_DLEIndustrialArea_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0031,0000;0600
+Delhi_Harkeshnagar_D (Delhi),Delhi_Okhla_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0032,0015;0500
+Delhi_Janakpuri_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0033,0000;0600
+Delhi_Jharera_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0034,0000;0600
+Delhi_Lajpatnagar_D (Delhi),Delhi_Okhla_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0035,0015;0500
+Delhi_Lajwanti (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0036,0000;0600
+Delhi_MayapuriPhase1_I (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0037,0000;0600
+Delhi_Motiakhan_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0038,0000;0600
+Delhi_MotiNagar_D (Delhi),Delhi_MotiNagar_D (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0039,0000;0600
+Delhi_MotiNgr_D (Delhi),Delhi_MotiNagar_D (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0040,0000;0600
+Delhi_OkhlaIndusEstate_D (Delhi),Delhi_Okhla_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0041,0015;0500
+Delhi_Okhla_I (Delhi),Delhi_Okhla_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0042,0015;0500
+Delhi_Paharganj1_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0043,0000;0600
+Delhi_Tughlaqabad_D (Delhi),Delhi_Tughlaqabad_D (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0044,0015;0500
+Delhi_UdhyogNgr_R (Delhi),Delhi_UdhyogNgr_R (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0045,0600;2330
+Delhi_VishnuGarden_D (Delhi),Delhi_MayapuriPhase1_I (Delhi),ANY,ANY,ANY,ANY,Surface,Delhi_N,0046,0000;0600
+Denkanikottai_AnchettyRd_D (Tamil Nadu),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0047,2100;2130
+Deoghar_Bmpstwn_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0048,0030;0430;2030;2230
+Deoghar_Taljhari_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0049,0030;0430;2030;2230
+Devanahalli_Doddajala_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0050,2100;2130
+Devanahalli_Santhinagar_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0051,2100;2130
+Dhanbad_Jharia_DC (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0052,0030;0430;2030;2230
+Dhanbad_Joraphatak_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0053,0030;0430;2030;2230
+Dhanbad_Katrasgarh_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0054,0030;0430;2030;2230
+Dhanbad_Temp_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0055,0030;0430;2030;2230
+Dhanbad_Tilabani_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0056,0030;0430;2030;2230
+Dhanbad_Tilabani_H (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0057,0030;0430;2030;2230
+Dharamjaigarh_Ward12_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0058,0030;0430;2030;2230
+Didwana_TransportNgr_DPP (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0059,0030;0330;0830;1230;1500;2030;2330
+Dighwara_Saidpur_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Doddaballapura_Kuntanahalli_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0061,2100;2130
+Doddaballapura_Rajanukunte_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0062,2100;2130
+Domkal_StateBank_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0063,0030;0430;2030;2230
+Domkal_StateBank_D (West Bengal),Domkal_StateBank_D (West Bengal),S,ANY,ANY,ANY,Surface,Kolkata_E,0064,0030;0330;0830;1230;1500;2030;2330
+Draksharamam_Anaipeta_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0065,0500;2230
+Dullahpur_Chiraiyakot_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0002,0030;0430;2030;2230
+Dullahpur_Manajit_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0003,0030;0430;2030;2230
+Dullahpur_Raipur_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0004,0030;0430;2030;2230
+Dumka_Dudhani_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0005,0030;0430;2030;2230
+Dumka_Hansdiha1_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0006,0030;0430;2030;2230
+Ekma_Hansrajpr_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0007,0030;0330;0830;1230;1500;2030;2330
+Faridabad_MathuraRoad_D (Haryana),Faridabad_MathuraRoad_D (Haryana),ANY,ANY,ANY,ANY,Surface,Delhi_N,0008,0345;1545;1815
+Farrukhabad_RamBanquet_D (Uttar Pradesh),Farrukhabad_RamBanquet_D (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Agra_N,0009,0500;2230
+Fatehabad_Kullanroad_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0010,0030;0330;0830;1230;1500;2030;2330
+Fatehabad_SirsaRd_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0011,0030;0330;0830;1230;1500;2030;2330
+Fatehpur-RJ_Sekhisar_DPP (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0012,0030;0330;0830;1230;1500;2030;2330
+Galiveedu_Masjid_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0013,0030;0430;2030;2230
+Galiveedu_Thamballapalle_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0014,0030;0430;2030;2230
+GanjBasoda_Gyaraspur_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0015,0030;0330;0830;1230;1500;2030;2330
+GanjBasoda_Mahavirvihar_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0016,0030;0330;0830;1230;1500;2030;2330
+Garjanpur_Gossei_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0017,0030;0430;2030;2230
+Gauribidanur_Srinagara_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0018,2100;2130
+Ghatshila_Ekramcolony_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0019,0030;0330;0830;1230;1500;2030;2330
+Ghaziabad_Girirajnagar_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0020,0000;0100;0600
+Ghaziabad_Govindpuram_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0021,0000;0100;0600
+Ghaziabad_Maharajpur_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0022,0000;0100;0600
+Ghaziabad_PatelNagar_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0023,0000;0100;0600
+Ghaziabad_RjndrNgr_DC (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0024,0000;0100;0600
+Ghaziabad_Sahibabad_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0025,0000;0100;0600
+Ghaziabad_Sahibabad_I (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0026,0000;0100;0600
+Ghaziabad_Sec21_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0027,0000;0100;0600
+Ghaziabad_Sector21_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0028,0000;0100;0600
+Ghaziabad_ShastriNagar_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0029,0000;0100;0600
+Ghaziabad_SidhrthaVihar_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0030,0000;0100;0600
+Ghaziabad_Vijaynagar_D (Uttar Pradesh),Ghaziabad_Sahibabad_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0031,0000;0100;0600
+Ghogha_Durgatmple_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0032,0330;0900;1700;2330
+Ghosi_Jamalpur_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0033,0030;0430;2030;2230
+Giridih_Kharagdiha_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0034,0030;0430;2030;2230
+Giridih_Mahthadih_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0035,0030;0430;2030;2230
+Goa_Baingini_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0036,0030;0330;0830;1230;1500;2030;2330
+Goa_Calangute_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0037,0030;0330;0830;1230;1500;2030;2330
+Goa_Cortalim_L (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0038,0030;0330;0830;1230;1500;2030;2330
+Goa_Dabolim_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0039,0030;0330;0830;1230;1500;2030;2330
+Goa_Desainagar_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0040,0030;0330;0830;1230;1500;2030;2330
+Goa_Fatorda_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0041,0030;0330;0830;1230;1500;2030;2330
+Goa_Hub (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0042,0030;0330;0830;1230;1500;2030;2330
+Goa_Karapur_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0043,0030;0330;0830;1230;1500;2030;2330
+Goa_Madhalawada_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0044,0030;0330;0830;1230;1500;2030;2330
+Goa_Malwara_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0045,0030;0330;0830;1230;1500;2030;2330
+Goa_Mapusa_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0046,0030;0330;0830;1230;1500;2030;2330
+Goa_Mapusa_L (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0047,0030;0330;0830;1230;1500;2030;2330
+Goa_Mardol_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0048,0030;0330;0830;1230;1500;2030;2330
+Goa_Massorde1_DPP (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0049,0030;0330;0830;1230;1500;2030;2330
+Goa_Massorde_DPP (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0050,0030;0330;0830;1230;1500;2030;2330
+Goa_Nagve_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0051,0030;0330;0830;1230;1500;2030;2330
+Goa_Navelim_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0052,0030;0330;0830;1230;1500;2030;2330
+Goa_Panaji_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0053,0030;0330;0830;1230;1500;2030;2330
+Goa_Pernem_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0054,0030;0330;0830;1230;1500;2030;2330
+Goa_PondaCurti_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0055,0030;0330;0830;1230;1500;2030;2330
+Goa_Porvorim_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0056,0030;0330;0830;1230;1500;2030;2330
+Goa_PrabhuNagar_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0057,0030;0330;0830;1230;1500;2030;2330
+Goa_Saligao_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0058,0030;0330;0830;1230;1500;2030;2330
+Goa_Vagator_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0059,0030;0330;0830;1230;1500;2030;2330
+Goa_Verla_D (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0060,0030;0330;0830;1230;1500;2030;2330
+Goa_VernaIndustEstate_L (Goa),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0061,0030;0330;0830;1230;1500;2030;2330
+Godda_Maruabaran_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0062,0030;0430;2030;2230
+Gokavaram_MuraliNagar_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0063,0500;2230
+Gomoh_Bhuianchitro_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0064,0030;0430;2030;2230
+Gomoh_Topchanchi_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0065,0030;0430;2030;2230
+Gopalapuram_Komatikunta_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0002,0500;2230
+Gopalapur_BusStop_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0003,0030;0430;2030;2230
+Gudiyattam_KTPRoad_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0004,430
+Gulbarga_GunjColony_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0005,0030;0330;0830;1230;1500;2030;2330
+Gulbarga_Kapnoor_I (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0006,0030;0330;0830;1230;1500;2030;2330
+Gulbarga_PragatiColny_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0007,0030;0330;0830;1230;1500;2030;2330
+Gurgaon_Sector28_D (Haryana),Gurgaon_Sector28_D (Haryana),ANY,ANY,ANY,ANY,Surface,Delhi_N,0008,0000;0730
+Gurgaon_Wazirabad_D (Haryana),Gurgaon_Wazirabad_D (Haryana),ANY,ANY,ANY,ANY,Surface,Delhi_N,0009,0000;0730
+Gurmatkal_Mominpur_DPP (Karnataka),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0010,0500;2230
+Gwalior_AdityaPuram_D (Madhya Pradesh),Gwalior_AdityaPuram_D (Madhya Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0011,0500;2230
+Hajipur_Belkunda_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0012,0030;0330;0830;1230;1500;2030;2330
+Hajipur_Hathsarganj1_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0013,0030;0330;0830;1230;1500;2030;2330
+Hajipur_Hathsarganj_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0014,0030;0330;0830;1230;1500;2030;2330
+Haldwani_Haidagajjar_D (Uttarakhand),Haldwani_Haidagajjar_D (Uttarakhand),ANY,ANY,ANY,ANY,Surface,Sonipat_N,0015,415
+Harda_GwalNagar_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0016,0030;0330;0830;1230;1500;2030;2330
+Harda_Khirkiya1_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0017,0030;0330;0830;1230;1500;2030;2330
+Harda_Khirkiya2_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0018,0030;0330;0830;1230;1500;2030;2330
+Harda_Timarni_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0019,0030;0330;0830;1230;1500;2030;2330
+Harda_Ward16_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0020,0030;0330;0830;1230;1500;2030;2330
+Hazratjandaha_Jhamnganj_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0021,0030;0330;0830;1230;1500;2030;2330
+Hilsa_Sryamndr_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0022,0030;0330;0830;1230;1500;2030;2330
+Hisar_Adampur_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0023,0030;0330;0830;1230;1500;2030;2330
+Hisar_Dabra_H (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0024,0030;0330;0830;1230;1500;2030;2330
+Hisar_Dabra_R (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0025,0030;0330;0830;1230;1500;2030;2330
+Hisar_Pirawali_H (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0026,0030;0330;0830;1230;1500;2030;2330
+Hisar_Pirawali_R (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0027,0030;0330;0830;1230;1500;2030;2330
+Hisar_ShivNagar_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0028,0030;0330;0830;1230;1500;2030;2330
+Hisar_UrbanEstate2_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0029,0030;0330;0830;1230;1500;2030;2330
+Honnavar_ForestColony_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0030,0030;0330;0830;1230;1500;2030;2330
+Hoshangabad_BabaiRd_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0031,0030;0330;0830;1230;1500;2030;2330
+Hoshangabad_Babai_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0032,0030;0330;0830;1230;1500;2030;2330
+Hoshangabad_Semrai_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0033,0030;0330;0830;1230;1500;2030;2330
+Hoskote_NisargaLayout_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0034,2100;2130
+Hosur_Shoolagiri_D (Tamil Nadu),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0035,2100;2130
+Hosur_SipcotPhase1_D (Tamil Nadu),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0036,2100;2130
+Howrah_Dhulagari1_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0037,0030;0330;0830;1230;1500;2030;2330
+Howrah_Shibpur_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0038,0030;0330;0830;1230;1500;2030;2330
+Humnabad_Kamalapur1_DPP (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0039,0030;0330;0830;1230;1500;2030;2330
+Humnabad_Kamalapur2_DPP (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0040,0030;0330;0830;1230;1500;2030;2330
+Humnabad_Ward22_DPP (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0041,0030;0330;0830;1230;1500;2030;2330
+Hyderabad_Gayathrinagar_D (Telangana),Hyderabad_Medchal_GW (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0042,0500;2230
+Hyderabad_Gudimalkapur_C (Telangana),Hyderabad_Shamshbd_H (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0043,0500;2230
+Hyderabad_Kothapet_C (Telangana),Hyderabad_Shamshbd_H (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0044,0500;2230
+Hyderabad_Mhdiptnm_BFSI_R (Telangana),Hyderabad_Shamshbd_H (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0045,0500;2230
+Hyderabad_Tarnaka_D (Telangana),Hyderabad_Tarnaka_D (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0046,0500;2230
+Itarsi_AwnNgr_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0047,0030;0330;0830;1230;1500;2030;2330
+Jabalpur_Ghamapur_D (Madhya Pradesh),Jabalpur_Ghamapur_D (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0048,0030;0330;0830;1230;1500;2030;2330
+Jagatsinghpur_Galupada_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0049,0030;0430;2030;2230
+Jalalpur_Jaukabad_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0050,0030;0430;2030;2230
+Jalgaon_Midc_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0051,0500;2230
+Jalgaon_MIDC_I (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0052,0500;2230
+Jamalpur_HalaraVlg_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0053,0030;0430;2030;2230
+Jamner_BusStd_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0054,0500;2230
+Jamshedpur_Asanbani_H (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0055,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_AzadNagar_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0056,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_Baradwari_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0057,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_DindliBasti_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0058,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_Jugsalai_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0059,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_Kadma_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0060,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_Manifit_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0002,0030;0330;0830;1230;1500;2030;2330
+Jamshedpur_Subhashcol_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0003,0030;0330;0830;1230;1500;2030;2330
+Jamtara_Chakrakasabad_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0004,0030;0430;2030;2230
+Jamtara_Karmatar_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0005,0030;0430;2030;2230
+Jamui_Mehsouri_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0006,0330;0900;1700;2330
+Jasai_JNPTNMsez_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0007,0030;0430;2030;2230
+Jasai_Ulwe1_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0008,0030;0430;2030;2230
+Jatara_Baiwarkhas_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0009,0500;2230
+Jatara_Khargapur1_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0010,0500;2230
+Jewargi_Ward20_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0011,0030;0330;0830;1230;1500;2030;2330
+Jhajha_Hillrange_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0012,0330;0900;1700;2330
+Jhansi_Nandanpura_I (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0013,0500;2230
+Jhansi_SangamVihar_D (Uttar Pradesh),Jhansi_SangamVihar_D (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0014,0500;2230
+Jharsuguda_Ekatali_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0015,0030;0430;2030;2230
+Jind_HakikatNagar_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0016,0030;0330;0830;1230;1500;2030;2330
+Jind_HariNagar_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0017,0030;0330;0830;1230;1500;2030;2330
+Jiyanpur_GorkhpurRd_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0018,0030;0430;2030;2230
+Kadobahal_Dulampur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0019,0030;0430;2030;2230
+Kadpadi_GoldenNager_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0020,430
+Kahalgaon_Budhuchak_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0021,0330;0900;1700;2330
+Kahalgaon_Pirpainti_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0022,0330;0900;1700;2330
+Kakinada_CinemaRd_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0023,0500;2230
+Kakinada_Kovvada_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0024,0500;2230
+Kakinada_Rayudupalem1_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0025,0500;2230
+Kalapathar_Bamborahi_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0026,0030;0430;2030;2230
+Kaluvaya_Kulluru_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0027,0030;0430;2030;2230
+Kamarpukur_ChatiDPP_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0028,0030;0430;2030;2230
+Kanpur_Rania1_D (Uttar Pradesh),Kanpur_Rania1_D (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Kanpur_N,0029,0500;2230
+Karera_DenidaRd_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0030,0500;2230
+Karwar_Chendiya_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0031,0030;0330;0830;1230;1500;2030;2330
+Karwar_Sadashivgad_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0032,0030;0330;0830;1230;1500;2030;2330
+Kathipudi_YdvaSt_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0033,0500;2230
+Katoriya_Dumarthar_DPP (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0034,0330;0900;1700;2330
+Katwa_Panchghara_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0035,0030;0430;2030;2230
+Kendrapara_Chhagharia_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0036,0030;0430;2030;2230
+Kendrapara_Korua1_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0037,0030;0430;2030;2230
+Kendrapara_Penthapal_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0038,0030;0430;2030;2230
+Kerakat_Lalganj_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0039,0030;0430;2030;2230
+Khagaria_Baluwahi_DPP (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0040,0030;0330;0830;1230;1500;2030;2330
+Khargram_Kandi_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0041,0030;0430;2030;2230
+Khategaon_ChohanClny_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0042,0030;0330;0830;1230;1500;2030;2330
+Khurdha_Jatni_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0043,0030;0430;2030;2230
+Khurdha_Palla_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0044,0030;0430;2030;2230
+Koduru_Jagadampalli_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0045,0030;0430;2030;2230
+Kolar_Channappanahalli_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0046,2100;2130
+Kolar_Jayanagara_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0047,2100;2130
+Kolkata_Belghoria_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0048,0030;0330;0830;1230;1500;2030;2330
+Kolkata_ChinarPark_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0049,0030;0330;0830;1230;1500;2030;2330
+Kolkata_DankuniGW_R (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0050,0030;0330;0830;1230;1500;2030;2330
+Kolkata_Dankuni_I (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0051,0030;0330;0830;1230;1500;2030;2330
+Kolkata_FedExVRTL_D (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0052,0030;0330;0830;1230;1500;2030;2330
+Kolkata_Gobra_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0053,0030;0330;0830;1230;1500;2030;2330
+Kolkata_Paharpur_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0054,0030;0330;0830;1230;1500;2030;2330
+Kolkata_Panihati_C (West Bengal),Kolkata_Dankuni_I (West Bengal),ANY,ANY,ANY,ANY,Surface,Kolkata_E,0055,0030;0330;0830;1230;1500;2030;2330
+Kollapur_Vasavi_DPP (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0056,0500;2230
+Konark_Central_DPP_2 (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0057,0030;0430;2030;2230
+Kosgi_Chennaram_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0058,0500;2230
+Kosgi_Kodangal_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0059,0500;2230
+Kothakota_Wanaprthy_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0060,0500;2230
+Kothapalli_Amaravalli1_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0061,0500;2230
+Kovvur_Samisragudem1_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0062,0500;2230
+Kovvur_Ward14_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0063,0500;2230
+Kuchinda_Pdrpada_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0064,0030;0430;2030;2230
+Kumta_Central_DPP_2 (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0065,0030;0330;0830;1230;1500;2030;2330
+Kundahit_Bankati_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0002,0030;0430;2030;2230
+Kunkuri_Kansabel_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0002,0030;0430;2030;2230
+Kusmi_Kanjiya_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0003,0030;0430;2030;2230
+Lailunga_BanjariPara_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0004,0030;0430;2030;2230
+Lakhisarai_Central_D_2 (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0005,0330;0900;1700;2330
+Lakhisarai_Central_I_2 (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0006,0330;0900;1700;2330
+Lakhisarai_Kiul_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0007,0330;0900;1700;2330
+Lalitpur_Govindnagar_D (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0008,0500;2230
+Laxmangarh_Wrd19DPP_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0009,0030;0330;0830;1230;1500;2030;2330
+Madanapalle_RNaiduClny_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0010,0030;0430;2030;2230
+Madanapalle_Vayalapadu_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0011,0030;0430;2030;2230
+Madhuban_Gayatripuram_DPP (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0012,0030;0430;2030;2230
+Madhupur_Baramsoli_DPP (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0013,0030;0430;2030;2230
+Madhupur_Sitarmrd_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0014,0030;0430;2030;2230
+Mahabubnagar_Devarakadra_DPP (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0015,0500;2230
+Mahabubnagar_Zouqinagar_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0016,0500;2230
+Mahagama_Teachercolony_DPP (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0017,0030;0430;2030;2230
+Maharajganj_Sihauta_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0018,0030;0330;0830;1230;1500;2030;2330
+Mahbubnagar_Boyapally_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0019,0500;2230
+Mahbubnagar_Boyapally_I (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0020,0500;2230
+Maheshkhunt_Bandehra_DPP (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0021,0030;0330;0830;1230;1500;2030;2330
+Maheshkhunt_PashchimTola_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0022,0030;0330;0830;1230;1500;2030;2330
+Maheshpur_Grmnbank_D (Jharkhand),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0023,0030;0430;2030;2230
+Mahrauni_Kuwanghosi_D (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0024,0500;2230
+Mahuadanr_Dipatoli_D (Jharkhand),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0025,0030;0430;2030;2230
+Mairwa_StationRd_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0026,0030;0330;0830;1230;1500;2030;2330
+Mallapur_ShtDRDPP_D (Karnataka),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0027,0030;0330;0830;1230;1500;2030;2330
+Malmaliya_Amanw_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0028,0030;0330;0830;1230;1500;2030;2330
+Malmaliya_Piarepur_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0029,0030;0330;0830;1230;1500;2030;2330
+Malmaliya_Sipah_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0030,0030;0330;0830;1230;1500;2030;2330
+Malur_AdarshNgr_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0031,2100;2130
+Malvan_Kumbharmath_D (Maharashtra),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0032,0030;0330;0830;1230;1500;2030;2330
+Mandapeta_Gandhinagar_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0033,0500;2230
+Mandapeta_Ravulapalem_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0034,0500;2230
+Mandideep_Mahaveernagar_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0035,0030;0330;0830;1230;1500;2030;2330
+Manendragarh_Chirimiri_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0036,0030;0430;2030;2230
+Manendragarh_HaldiBadi_DPP (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0037,0030;0430;2030;2230
+Manendragarh_JKDRoad_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0038,0030;0430;2030;2230
+ManharBazar_NayaGaon_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0039,0030;0330;0830;1230;1500;2030;2330
+Mannaekhelli_Bapur_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0040,0030;0330;0830;1230;1500;2030;2330
+Manteswar_MemariRD_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0041,0030;0430;2030;2230
+Marhowarah_StatinRD_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0042,0030;0330;0830;1230;1500;2030;2330
+Masaurhi_Biranchi_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0043,0030;0330;0830;1230;1500;2030;2330
+Mashrakh_Benchapra_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0044,0030;0330;0830;1230;1500;2030;2330
+Mauranipur_NehruNagar_D (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0045,0500;2230
+Mau_Chriayakot_C (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0046,0030;0430;2030;2230
+Mau_Chriayakot_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0047,0030;0430;2030;2230
+Meham_Ward13_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0048,0030;0330;0830;1230;1500;2030;2330
+Memari_IchprDPP_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0049,0030;0430;2030;2230
+MirzapurWB_VidyaDPP_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0050,0030;0430;2030;2230
+MohiuddinNagar_Manjha_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0051,0030;0330;0830;1230;1500;2030;2330
+Morgram_Kantagoriya_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0052,0030;0430;2030;2230
+Mulbagal_Sunku_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0053,2100;2130
+Mumbai_Adarshnagar_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0054,0500;2230
+Mumbai_Airoli1_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0055,0030;0430;2030;2230
+Mumbai_Airoli_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0056,0030;0430;2030;2230
+Mumbai_BelapurSector11_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0057,0030;0430;2030;2230
+Mumbai_Bhandup_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0058,2130
+Mumbai_BharatNagar_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0059,0500;2230
+Mumbai_BholenathNagar_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0060,2130
+Mumbai_BycullaEast_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0060,0500;2230
+Mumbai_Chinchpokli_I (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0060,0500;2230
+Mumbai_Dharavi_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0003,0500;2230
+Mumbai_DokaliPada_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0004,2130
+Mumbai_Fort_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0005,0500;2230
+Mumbai_GandhiNgr_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0006,0500;2230
+Mumbai_GhansliSec5_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0007,0030;0430;2030;2230
+Mumbai_GhodbunderRd_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0008,2130
+Mumbai_Gundavali_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0009,2130
+Mumbai_Kalachowki_I (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0010,0500;2230
+Mumbai_Kalamboli_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0011,0030;0430;2030;2230
+Mumbai_Kalbadevi1_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0012,0500;2230
+Mumbai_Kamothe_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0013,0030;0430;2030;2230
+Mumbai_Kasarvadavali_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0014,2130
+Mumbai_KempsCorner_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0015,0500;2230
+Mumbai_Khardipada_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0016,2130
+Mumbai_KhargharSec36_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0017,0030;0430;2030;2230
+Mumbai_KhargharSector20_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0018,0030;0430;2030;2230
+Mumbai_KoparKhairane1_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0019,0030;0430;2030;2230
+Mumbai_MahapeMIDC2_I (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0020,0030;0430;2030;2230
+Mumbai_Mahim_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0021,0500;2230
+Mumbai_Manpada1_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0022,2130
+Mumbai_Midctaloja_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0023,0030;0430;2030;2230
+Mumbai_MulundEast_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0024,2130
+Mumbai_MulundWest_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0025,2130
+Mumbai_Mumbra_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0026,2130
+Mumbai_NerulSector28_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0027,0030;0430;2030;2230
+Mumbai_Palaspe2_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0028,0030;0430;2030;2230
+Mumbai_Palidevad_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0029,0030;0430;2030;2230
+Mumbai_Panvel_2_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0030,0030;0430;2030;2230
+Mumbai_Parel_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0031,0500;2230
+Mumbai_Patlipada_I (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0032,2130
+Mumbai_Prabhadevi_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0033,0500;2230
+Mumbai_Seawoods_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0034,0030;0430;2030;2230
+Mumbai_ShivajiNagar_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0035,0500;2230
+Mumbai_Sion_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0036,0500;2230
+Mumbai_Talojamidc_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0037,0030;0430;2030;2230
+Mumbai_TalojaPhase2_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0038,0030;0430;2030;2230
+Mumbai_Taloja_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0039,0030;0430;2030;2230
+Mumbai_Tardeo1_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0040,0500;2230
+Mumbai_ThaneW_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0041,2130
+Mumbai_Umerkhadi_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0042,0500;2230
+Mumbai_Upvan_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0043,2130
+Mumbai_Vadghar_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0044,0030;0430;2030;2230
+Mumbai_VashiAPMC_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0045,0030;0430;2030;2230
+Mumbai_VashiWard_D (Maharashtra),Mumbai_MahapeMIDC2_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0046,0030;0430;2030;2230
+Mumbai_VasiNaka_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0047,0500;2230
+Mumbai_Wadala_D (Maharashtra),Mumbai_Chinchpokli_I (Maharashtra),S,ANY,ANY,ANY,Surface,Mumbai_W,0048,0500;2230
+Mumbai_WagleIndusEstate_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0049,2130
+Mumbai_XB_INT (Maharashtra),Delhi_Airport_INTL (Delhi),E,ANY,ANY,ANY,Express,INTL_N,0050,0030;0430;2030;2230
+Munger_Kaura_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0051,0330;0900;1700;2330
+Murarai_Birbhumi_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0052,0030;0430;2030;2230
+Murshidabad_Jiaganj_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0053,0030;0430;2030;2230
+Nagpur_AnantNagar_D (Maharashtra),Nagpur_AnantNagar_D (Maharashtra),S,ANY,ANY,ANY,Surface,Nagpur_W,0054,0030;0330;0830;1230;1500;2030;2330
+Narayanpet_Ashoknagar_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0055,0500;2230
+Narsapur_Sakhinetipalli_DPP (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0056,0500;2230
+Narsinghgarh_Bypassroad_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0057,0030;0330;0830;1230;1500;2030;2330
+Nasrullaganj_RujanKhedi_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0058,0030;0330;0830;1230;1500;2030;2330
+Naugchia_Nagarpara_DPP (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0059,0030;0330;0830;1230;1500;2030;2330
+Naugchia_Vijayght_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Nayagarh_Mathakhajuria_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0002,0030;0430;2030;2230
+Nayagarh_Sundaria_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0003,0030;0430;2030;2230
+Nazirpur_Thanarpara_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0004,0030;0430;2030;2230
+Neemkathana_Chhawani_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0005,0030;0330;0830;1230;1500;2030;2330
+Nepanagar_Ward4_D (Madhya Pradesh),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0006,0500;2230
+Nimapara_Bishnupur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0007,0030;0430;2030;2230
+Nimapara_MahabirClny_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0008,0030;0430;2030;2230
+Nirakarpur_Nanapada_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0009,0030;0430;2030;2230
+Nirakarpur_Rameswar_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0010,0030;0430;2030;2230
+NizamabadUP_UnionBnk_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0011,0030;0430;2030;2230
+Nowda_Amtala_DPP (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0012,0030;0430;2030;2230
+Oras_Ranbambuli_D (Maharashtra),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0013,0030;0330;0830;1230;1500;2030;2330
+Pachora_AadarshNagar_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0014,0500;2230
+Pachora_Kajgaon_DPP (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0015,0500;2230
+Pachora_PungaonRoad_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0016,0500;2230
+Pachore_AnandNagar_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0017,0030;0330;0830;1230;1500;2030;2330
+Pachore_Bhojpuriya_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0018,0030;0330;0830;1230;1500;2030;2330
+Palamaner_Gobillakutur_D (Andhra Pradesh),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0019,430
+Palamaner_Kurappali_D (Andhra Pradesh),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0020,430
+Palamaner_Rangapuram_D (Andhra Pradesh),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0021,430
+Pandua_NvplyDPP_D (West Bengal),Bardhaman_Ulhas_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0022,0030;0430;2030;2230
+Paradip_Pipal_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0023,0030;0430;2030;2230
+Para_Dubra_DPP (West Bengal),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0024,0030;0430;2030;2230
+Pathalgaon_Jashpur_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0025,0030;0430;2030;2230
+Pathalgaon_Kargilchowk_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0026,0030;0430;2030;2230
+PatnaCH_Pipardand_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0027,0030;0430;2030;2230
+Patna_Adarshnagar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0028,0030;0330;0830;1230;1500;2030;2330
+Patna_Alinagar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0029,0030;0330;0830;1230;1500;2030;2330
+Patna_Bankipurgorakh_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0030,0030;0330;0830;1230;1500;2030;2330
+Patna_Begampur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0031,0030;0330;0830;1230;1500;2030;2330
+Patna_Chanakyavihar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0032,0030;0330;0830;1230;1500;2030;2330
+Patna_Chhotipahari_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0033,0030;0330;0830;1230;1500;2030;2330
+Patna_Chhotipahari_L (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0034,0030;0330;0830;1230;1500;2030;2330
+Patna_Dhanaut_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0035,0030;0330;0830;1230;1500;2030;2330
+Patna_Gaighat (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0036,0030;0330;0830;1230;1500;2030;2330
+Patna_Janarjanpur_H (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0037,0030;0330;0830;1230;1500;2030;2330
+Patna_Janarjanpur_R (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0038,0030;0330;0830;1230;1500;2030;2330
+Patna_Kankarbagh_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0039,0030;0330;0830;1230;1500;2030;2330
+Patna_Mahuli_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0040,0030;0330;0830;1230;1500;2030;2330
+Patna_PatliputraColony_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0041,0030;0330;0830;1230;1500;2030;2330
+Patna_PhulwariSharif_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0042,0030;0330;0830;1230;1500;2030;2330
+Patna_PhulwariSharif_L (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0043,0030;0330;0830;1230;1500;2030;2330
+Patna_Postalpark_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0044,0030;0330;0830;1230;1500;2030;2330
+Patna_Sampatchak_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0045,0030;0330;0830;1230;1500;2030;2330
+Patna_Sonagopalpur_H (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0046,0030;0330;0830;1230;1500;2030;2330
+Patna_TransportNagar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0047,0030;0330;0830;1230;1500;2030;2330
+Patna_West (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0048,0030;0330;0830;1230;1500;2030;2330
+Pavapuri_Jalmandirrd_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0049,0030;0330;0830;1230;1500;2030;2330
+Penugonda_GandhiChowk_DPP (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0050,0500;2230
+Peterbar_GagiDPP_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0051,0030;0430;2030;2230
+Phusro_Gumia_DPP (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0052,0030;0430;2030;2230
+Phusro_SinghNagar_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0053,0030;0430;2030;2230
+Pichhore_Bachron_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0054,0500;2230
+Pilkhuwa_Bholapuri_D (Uttar Pradesh),Pilkhuwa_Bholapuri_D (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0055,415
+Pipariya_PachmrhiRd_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0056,0030;0330;0830;1230;1500;2030;2330
+Pipili_Hasanapur_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0057,0030;0430;2030;2230
+Plassey_Janakinagar1_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0058,0030;0430;2030;2230
+Polavaram_Collageroad_DPP (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0059,0500;2230
+Polur_Kadaladi_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Poonchh_AranchRd_D (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0061,0500;2230
+Poriyahat_Jogia_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0062,0030;0430;2030;2230
+Premnagar_Sadakpara1_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0063,0030;0430;2030;2230
+Prithvipur_JeronRd_DPP (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Prithvipur_NiwariRd_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Prithvipur_Niwari_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Proddatur_Bollavaram_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Proddatur_Moragudi_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Pulivendula_Venkatapurm_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Punganur_Kummaranatham_D (Andhra Pradesh),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Punsia_Bounsi_DPP (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Puri_Gopinathapur_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Puri_Kanjia_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Puri_Purussottamnagar_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Puri_Sakhigopal_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Raghunathganj_Lalgola_DPP (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0060,0030;0430;2030;2230
+Raghunathganj_NH12_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0060,0030;0430;2030;2230
+Raghunathganj_Talai_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0060,0030;0430;2030;2230
+Raghunathpur_DhnwtiKhp_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Raghunathpur_Nutandih_D (West Bengal),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0060,0030;0430;2030;2230
+Raipur_Govindnagar_D (Chhattisgarh),Raipur_Govindnagar_D (Chhattisgarh),S,ANY,ANY,ANY,Surface,Raipur_W,0060,0030;0330;0830;1230;1500;2030;2330
+Rairakhol_KachariRd_DPP (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Rairangpur_Sanchampauda_D (Orissa),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0060,0030;0330;0830;1230;1500;2030;2330
+Raisen_Gopalpur_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Rajahmundry_AlcotGrdn_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rajahmundry_Morampudi_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rajahmundry_Rajanagaram_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rajahmundry_Rajanagaram_H (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rajahmundry_Tummalava_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rajampet_BypassRd_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Rajdhanwar_Mayaramtola_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0060,0030;0430;2030;2230
+Rajesultanpur_PadumprMkt_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+RajpurCH_Nawki_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0060,0030;0430;2030;2230
+Ramanujganj_Wadafnagarrd_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0060,0030;0430;2030;2230
+Ramgarh_Khoor_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Rampachodavaram_Horeb_DPP (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Rampurhat_Sanghatamore_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0060,0030;0430;2030;2230
+Rampurhat_Suri_D (West Bengal),Berhampore_Mankara_I (West Bengal),E,ANY,ANY,ANY,Express,Kolkata_E,0060,0030;0430;2030;2230
+Ranchi_HinooChowk_D (Jharkhand),Ranchi_HinooChowk_D (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0060,0030;0330;0830;1230;1500;2030;2330
+Ranipet_Gandhinagar_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Ranka_Godarmana1_D (Jharkhand),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0060,0030;0430;2030;2230
+Ratangarh_Goldencolony_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Ratanpura_MubarDPP_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+Ratia_EmployeesColony_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0060,0030;0330;0830;1230;1500;2030;2330
+Raver_BurhanpurRoad_D (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0060,0500;2230
+Rayachoti_Chenamukapale_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Rayachoti_Mangalapalli_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Rayachoti_Tsundupalli_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Razole_Sivakodu_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Reengus_TegoreViharColony_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Renwal_Wardno4_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Rewa_Gadariya_D (Madhya Pradesh),Rewa_Gadariya_D (Madhya Pradesh),ANY,ANY,ANY,ANY,Surface,Allahabad_N,0060,0030;0330;0830;1230;1500;2030;2330
+Roorkee_Rampur_D (Uttarakhand),Roorkee_Rampur_D (Uttarakhand),ANY,ANY,ANY,ANY,Surface,Dehradun_N,0060,415
+Rosera_HanumanTemple_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Rupnarayanpur_Salanpur_D (West Bengal),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0060,0030;0430;2030;2230
+Sahebpurkml_Mohnpr_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Samarlakota_Sriramnagar_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Sambalpur_Bareipali_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sambalpur_Bareipali_D (Orissa),Sambalpur_Bareipali_D (Orissa),S,ANY,ANY,ANY,Surface,Salmbalpur_E,0060,0030;0330;0830;1230;1500;2030;2330
+Sambalpur_Putibandh_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sambalpur_Rengali_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sambalpur_Tentelpara_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sambalpur_Tentelpara_D (Orissa),Sambalpur_Bareipali_D (Orissa),S,ANY,ANY,ANY,Surface,Salmbalpur_E,0060,0030;0330;0830;1230;1500;2030;2330
+Sambalpur_Tentelpara_H (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sangrampur_Bhawnipr_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Sawantwadi_Gandhinagar_D (Maharashtra),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0060,0030;0330;0830;1230;1500;2030;2330
+Sawantwadi_Khaskilwada1_D (Maharashtra),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0060,0030;0330;0830;1230;1500;2030;2330
+Sawantwadi_Sabniswada_D (Maharashtra),Goa_Hub (Goa),S,ANY,ANY,ANY,Surface,Goa_W,0060,0030;0330;0830;1230;1500;2030;2330
+Sedam_Kalgi_DPP (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0060,0030;0330;0830;1230;1500;2030;2330
+Sedam_Venkateshnagar_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0060,0030;0330;0830;1230;1500;2030;2330
+Sehore_Sherpur_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+SeoniMalwa_Bhlpra_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Seraikella_NawaDih_D (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0060,0030;0330;0830;1230;1500;2030;2330
+Shahapur_LxmiNgr_D (Karnataka),Gulbarga_Kapnoor_I (Karnataka),S,ANY,ANY,ANY,Surface,Hyderabad_S,0060,0030;0330;0830;1230;1500;2030;2330
+Shahganj_Kaudiya_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+Shahganj_Mijwan_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+Shahganj_Phoolpur_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+Shahganj_RudhauliKalan_D (Uttar Pradesh),Azamgarh_Husanganj_H (Uttar Pradesh),E,ANY,ANY,ANY,Express,Varanasi_N,0060,0030;0430;2030;2230
+Sheikhpura_Lalbagh1_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Sheonor_Moldiyar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Shikaripara_Karakata_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0060,0030;0430;2030;2230
+Shivpuri_GwliorBypas_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Shivpuri_Kolaras_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Sholinghur_RajeshNagar_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Sholinghur_Ramkrishnarajapet_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Sholinghur_Valaknampudi_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Shujalpur_JNSCollege_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Sikandara_JamuiRD_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Sikar_GokulVihar_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sikar_IndustrialArea_I (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sikar_Phagalwa1_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sikar_Phagalwa_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Singhia_Bithan2_DPP (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Singhia_Shayampur_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Sironj_Hajipur_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Sirsa_Kheirpur_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sirsa_PreetNagar_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sirvella_Sirivelmitta1_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Sirvella_Sirivelmitta_DPP (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Siwani_Ward10_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0060,0030;0330;0830;1230;1500;2030;2330
+Siwani_Ward12_D (Haryana),Hisar_Pirawali_H (Haryana),ANY,ANY,ANY,ANY,Surface,Gurgaon_N,0060,0030;0330;0830;1230;1500;2030;2330
+Siwan_Andar_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Siwan_Aranda_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Siwan_Atarsua_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Siwan_Barharia_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Siwan_Mahpur_D (Bihar),Chhapra_Newajitola_I (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Soegaon_Shivajinagar_DPP (Maharashtra),Jalgaon_MIDC_I (Maharashtra),S,ANY,ANY,ANY,Surface,Jalgaon_W,0060,0500;2230
+SonbarsaBH_BelaNawad_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+SonbarsaBH_Mangwar_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Sonbarsa_Soha_D (Bihar),Patna_Janarjanpur_H (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0030;0330;0830;1230;1500;2030;2330
+Sonipat_Sector62_D (Haryana),Sonipat_Sector62_D (Haryana),ANY,ANY,ANY,ANY,Surface,Sonipat_N,0060,0030;0430;2030;2230
+Srinivaspur_KolarRD_D (Karnataka),Bangalore_Hoskote_GW (Karnataka),E,ANY,ANY,ANY,Express,Bangalore_S,0060,2100;2130
+Subdega_Gaibira_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sujangarh_Salasar1_DPP (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sujangarh_Salasar_DPP (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sujangarh_Sandwa_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sujangarh_Ward26_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Sultanganj_Dilgouri_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Sultanganj_Tarapur_DPP (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Sundargarh_Duduka_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sundargarh_Ranibagicha_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Sundargarh_SankaraRoad_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Surajapur_Chandarpur_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0060,0030;0430;2030;2230
+Surajgarha_Jarkpura_D (Bihar),Lakhisarai_Central_I_2 (Bihar),S,ANY,ANY,ANY,Surface,Patna_E,0060,0330;0900;1700;2330
+Surat_Kacholi_GW (Gujarat),Surat_Kacholi_GW (Gujarat),ANY,ANY,ANY,ANY,Surface,Surat_W,0060,0030;0330;0830;1230;1500;2030;2330
+Surat_Kadodara1_L (Gujarat),Surat_Kacholi_GW (Gujarat),ANY,ANY,ANY,ANY,Surface,Surat_W,0060,0030;0330;0830;1230;1500;2030;2330
+Surat_Laldarwaja1_C (Gujarat),Surat_Kacholi_GW (Gujarat),ANY,ANY,ANY,ANY,Surface,Surat_W,0060,0030;0330;0830;1230;1500;2030;2330
+Surat_RingRd_C (Gujarat),Surat_Kacholi_GW (Gujarat),ANY,ANY,ANY,ANY,Surface,Surat_W,0060,0030;0330;0830;1230;1500;2030;2330
+Surat_Varachha_C (Gujarat),Surat_Kacholi_GW (Gujarat),ANY,ANY,ANY,ANY,Surface,Surat_W,0060,0030;0330;0830;1230;1500;2030;2330
+Tadoor_Nagarkurnool_D (Telangana),Mahbubnagar_Boyapally_I (Telangana),S,ANY,ANY,ANY,Surface,Hyderabad_S,0060,0500;2230
+Talbahat_CityRoad_DPP (Uttar Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Tamar_Chara_DPP (Jharkhand),Jamshedpur_Asanbani_H (Jharkhand),S,ANY,ANY,ANY,Surface,Ranchi_E,0060,0030;0330;0830;1230;1500;2030;2330
+Tangi_SriDPP_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Tanuku_Venkatarayapuram_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Thane_MajiwadaB_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0060,2130
+Thane_PrasikNagar_D (Maharashtra),Mumbai_Patlipada_I (Maharashtra),E,ANY,ANY,ANY,Express,Mumbai_W,0060,2130
+Tikamgarh_Dhonga_D (Madhya Pradesh),Jhansi_Nandanpura_I (Uttar Pradesh),ANY,ANY,ANY,ANY,Surface,Gwalior_W,0060,0500;2230
+Tirtol_Central_D_2 (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Tirtol_Nathang_D (Orissa),Bhubaneswar_Bampakhuda_GW (Orissa),E,ANY,ANY,ANY,Express,Bhubaneshwar_E,0060,0030;0430;2030;2230
+Tisri_Satgawan_D (Jharkhand),Dhanbad_Tilabani_H (Jharkhand),E,ANY,ANY,ANY,Express,Dhanbad_E,0060,0030;0430;2030;2230
+Tuni_SaiNagar_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Udaipura_Wardno1_DPP (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Udaipurwati_GudhaGorji_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Udaipurwati_Khandela_D (Rajasthan),Sikar_IndustrialArea_I (Rajasthan),ANY,ANY,ANY,ANY,Surface,Jaipur_N,0060,0030;0330;0830;1230;1500;2030;2330
+Vellore_Avrmpalyam_D (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Vellore_Avrmpalyam_I (Tamil Nadu),Vellore_Avrmpalyam_I (Tamil Nadu),S,ANY,ANY,ANY,Surface,Vellore_S,0060,430
+Vempalli_PulivendulaRd_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Vempalli_Ward13_D (Andhra Pradesh),Cuddapah_Aravindnagar_I (Andhra Pradesh),E,ANY,ANY,ANY,Express,Hyderabad_S,0060,0030;0430;2030;2230
+Vidisha_ShrprDPP_D (Madhya Pradesh),Bhopal_Pipaliya_H (Madhya Pradesh),S,ANY,ANY,ANY,Surface,Bhopal_W,0060,0030;0330;0830;1230;1500;2030;2330
+Wadrafnagar_Ward10_D (Chhattisgarh),Ambikapur_Bouripara_I (Chhattisgarh),E,ANY,ANY,ANY,Express,Ambikapur_W,0060,0030;0430;2030;2230
+Yanam_DraksharamaRd_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230
+Yerravaram_Somavaram_D (Andhra Pradesh),Rajahmundry_Rajanagaram_H (Andhra Pradesh),S,ANY,ANY,ANY,Surface,Vijayawada_S,0060,0500;2230

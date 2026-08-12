@@ -1,0 +1,835 @@
+/* ===================================================
+   SETTINGS CONTAINER
+=================================================== */
+
+.settings-container {
+  position: relative;
+  max-width: 95%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 28px;
+  background:linear-gradient(145deg, rgba(255,255,255,0.95), rgba(248,250,252,0.92));
+  border: 1px solid rgba(255,255,255,0.7);
+  box-shadow:
+    0 10px 40px rgba(15,23,42,0.08),
+    0 2px 10px rgba(15,23,42,0.04);
+
+  backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+
+/* Glow */
+.settings-container::before {
+  content: "";
+  position: absolute;
+  top: -120px;
+  right: -120px;
+
+  width: 300px;
+  height: 300px;
+
+  background:
+    radial-gradient(circle, rgba(99,102,241,0.18), transparent 70%);
+
+  z-index: 0;
+}
+
+.settings-container > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===================================================
+   HEADER
+=================================================== */
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(226,232,240,0.8);
+}
+
+.settings-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ff7a18, #ffb347);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.4px;
+}
+.settings-heading p {
+  margin-top: 0.45rem;
+  color: #7a7a7a;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.header-icon {
+  color: #ff8a1f;
+  font-size: 1.7rem;
+}
+
+/* ===================================================
+   ACTIONS
+=================================================== */
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* ===================================================
+   SAVE BUTTON
+=================================================== */
+.save-btn-modern {
+  border: none !important;
+  border-radius: 16px !important;
+  padding: 0.85rem 1.6rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px;
+  color: white !important;
+  background:linear-gradient(135deg, #ff7a18, #ff9f43) !important;
+  box-shadow:0 10px 22px rgba(255,122,24,0.28);
+  transition: all 0.25s ease !important;
+}
+.save-btn-modern:hover {
+  transform: translateY(-2px);
+  background:linear-gradient(135deg, #ff6a00, #ff922b) !important;
+  box-shadow:0 16px 28px rgba(255,122,24,0.35);
+}
+
+/* ================= PUSH BUTTON ================= */
+.push-btn-modern {
+  border: none !important;
+  border-radius: 16px !important;
+  padding: 0.85rem 1.6rem !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.3px;
+  color: white !important;
+  background:linear-gradient(135deg, #ffb347, #ffcc70) !important;
+  box-shadow:0 10px 22px rgba(255,179,71,0.28);
+  transition: all 0.25s ease !important;
+}
+
+.push-btn-modern:hover {
+  transform: translateY(-2px);
+  background:linear-gradient(135deg, #ffa726, #ffc857) !important;
+  box-shadow:0 16px 28px rgba(255,179,71,0.34);
+}
+
+
+/* ===================================================
+   SETTINGS CARD
+=================================================== */
+
+.settings-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* ===================================================
+   TABS
+=================================================== */
+/* ================= TABS ================= */
+
+.settings-tabs-modern .p-tabview-nav {
+  background: transparent !important;
+  border: none !important;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+
+  margin-bottom: 1.5rem;
+}
+
+/* Normal Tab */
+.settings-tabs-modern .p-tabview-nav li .p-tabview-nav-link {
+  border: none !important;
+
+  border-radius: 14px !important;
+
+  background: #fff7ed !important;
+
+  color: #c26a00 !important;
+
+  padding: 0.85rem 1.2rem !important;
+
+  font-weight: 700;
+
+  transition: all 0.25s ease;
+
+  box-shadow:
+    0 2px 8px rgba(255,122,24,0.08);
+}
+
+/* Hover */
+.settings-tabs-modern .p-tabview-nav li .p-tabview-nav-link:hover {
+  background: #ffe8cc !important;
+  color: #ff7a18 !important;
+}
+
+/* Active Tab */
+.settings-tabs-modern .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background:
+    linear-gradient(135deg, #ff7a18, #ffb347) !important;
+
+  color: white !important;
+
+  box-shadow:
+    0 10px 20px rgba(255,122,24,0.28);
+}
+/* ===================================================
+   SECTION TITLE
+=================================================== */
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ff7a18;
+}
+/* ===================================================
+   FORM GRID
+=================================================== */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===================================================
+   LABELS
+=================================================== */
+
+.form-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.65rem;
+  color: #334155;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.label-icon {
+  color: #ff8a1f;
+}
+
+
+/* ================= INPUT FOCUS ================= */
+
+.p-inputtext:focus,
+.p-inputnumber-input:focus,
+textarea:focus,
+.p-dropdown:not(.p-disabled).p-focus {
+  border-color: #ff9f43 !important;
+
+  box-shadow:
+    0 0 0 4px rgba(255,159,67,0.16) !important;
+}
+
+
+/* ===================================================
+   SWITCH GROUP
+=================================================== */
+
+.switch-group {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 1.1rem;
+
+  border-radius: 16px;
+
+  background:
+    linear-gradient(145deg, #ffffff, #f8fafc);
+
+  border: 1px solid #e2e8f0;
+
+  box-shadow:
+    0 4px 10px rgba(15,23,42,0.04);
+}
+/* ================= SWITCH ACTIVE ================= */
+
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background:
+    linear-gradient(135deg, #ff7a18, #ffb347) !important;
+}
+
+/* ===================================================
+   SYNC BADGE
+=================================================== */
+
+.sync-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  transition: all 0.25s ease;
+}
+
+.synced {
+  background: #fff7ed;
+  color: #ea580c;
+  border: 1px solid #fdba74;
+}
+
+.unsaved {
+  background: #fff1f2;
+  color: #dc2626;
+  border: 1px solid #fca5a5;
+}
+
+.saving {
+  background: #fff7ed;
+  color: #d97706;
+  border: 1px solid #fdba74;
+}
+
+/* ===================================================
+   USERS HEADER
+=================================================== */
+
+.users-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+/* ===================================================
+   DATATABLE
+=================================================== */
+
+.p-datatable {
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+  box-shadow:0 8px 24px rgba(15,23,42,0.05);
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+    background: linear-gradient(135deg, #ffedd5, #fff7ed) !important;
+    color: #9a3412 !important;
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    border-bottom: 1px solid #fed7aa !important;
+    padding: 12px !important;
+    white-space: nowrap !important;
+}
+.p-datatable .p-datatable-tbody > tr:nth-child(even) > td {
+  background: #fffaf5 !important;
+}
+.p-datatable .p-datatable-tbody > tr {
+  transition: all 0.22s ease;
+}
+.p-datatable .p-datatable-tbody > tr:hover > td {
+  background: #fff3e6 !important;
+  color: #111827 !important;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  font-size: 12px !important;
+  color: #374151 !important;
+  border-bottom: 1px solid #f5e7d6 !important;
+  padding: 11px 12px !important;
+  background: rgba(255,255,255,0.92) !important;
+}
+
+
+/* ===================================================
+   MODERN DIALOG BODY
+=================================================== */
+
+.modern-dialog-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding-top: 0.4rem;
+}
+
+/* ===================================================
+   FIELD
+=================================================== */
+
+.modern-field {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===================================================
+   LABEL
+=================================================== */
+
+.modern-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  margin-bottom: 0.7rem;
+
+  font-size: 0.92rem;
+  font-weight: 700;
+
+  color: #374151;
+}
+
+.modern-label i {
+  color: #ff8a1f;
+}
+
+/* ===================================================
+   INPUT
+=================================================== */
+
+.modern-input {
+  width: 100%;
+  border-radius: 14px !important;
+  border: 1px solid #e5e7eb !important;
+  background: #ffffff !important;
+  padding-left: 2.5rem !important;
+  padding-top: 0.9rem !important;
+  padding-bottom: 0.9rem !important;
+  font-size: 0.95rem;
+  transition: all 0.25s ease !important;
+  box-shadow:0 2px 8px rgba(15,23,42,0.04);
+}
+
+.modern-input:focus {
+  border-color: #ff9f43 !important;
+  box-shadow:0 0 0 4px rgba(255,159,67,0.14) !important;
+}
+
+/* ===================================================
+   DROPDOWN
+=================================================== */
+
+.modern-dropdown {
+  border-radius: 14px !important;
+  border: 1px solid #e5e7eb !important;
+  overflow: hidden;
+  box-shadow:0 2px 8px rgba(15,23,42,0.04);
+}
+
+.modern-dropdown:not(.p-disabled).p-focus {
+  border-color: #ff9f43 !important;
+  box-shadow:0 0 0 4px rgba(255,159,67,0.14) !important;
+}
+
+/* ===================================================
+   INPUT ICON
+=================================================== */
+
+.p-input-icon-left > i {
+  left: 0.9rem !important;
+  color: #ff8a1f;
+  font-size: 0.95rem;
+}
+
+/* ===================================================
+   FOOTER
+=================================================== */
+
+.modern-dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+/* ===================================================
+   CANCEL BUTTON
+=================================================== */
+
+.cancel-btn {
+  border: none !important;
+  border-radius: 12px !important;
+  background: #f3f4f6 !important;
+  color: #4b5563 !important;
+  font-weight: 700 !important;
+  padding: 0.75rem 1.2rem !important;
+  transition: all 0.25s ease !important;
+}
+
+.cancel-btn:hover {
+  background: #e5e7eb !important;
+}
+
+/* ===================================================
+   SUBMIT BUTTON
+=================================================== */
+
+.submit-btn {
+  border: none !important;
+  border-radius: 12px !important;
+  background:linear-gradient(135deg, #ff7a18, #ffb347) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  padding: 0.75rem 1.4rem !important;
+  box-shadow:0 10px 18px rgba(255,122,24,0.24);
+  transition: all 0.25s ease !important;
+}
+
+.submit-btn:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 14px 24px rgba(255,122,24,0.34);
+}
+/* ===================================================
+   PRIME BUTTONS
+=================================================== */
+
+.p-button {
+  border-radius: 12px !important;
+  font-weight: 600 !important;
+}
+
+.p-button:focus {
+  box-shadow: none !important;
+}
+
+/* ================= ADD BUTTON ================= */
+
+.p-button-success,
+.users-header .p-button {
+  border: none !important;
+
+  border-radius: 14px !important;
+
+  padding: 0.72rem 1.3rem !important;
+
+  font-weight: 700 !important;
+  letter-spacing: 0.3px;
+
+  color: white !important;
+
+  /* Premium Teal Accent */
+  background:
+    #D42B1E;
+
+  box-shadow:
+    0 10px 20px rgba(20,184,166,0.25);
+
+  transition: all 0.25s ease !important;
+}
+
+/* Hover */
+.p-button-success:hover,
+.users-header .p-button:hover {
+  transform: translateY(-2px);
+  background:rgb(177, 103, 42);
+  box-shadow:0 16px 28px rgba(20,184,166,0.34);
+}
+
+/* Click */
+.p-button-success:active,
+.users-header .p-button:active {
+  transform: scale(0.98);
+}
+/* ===================================================
+   REGEX TAB HEADER
+=================================================== */
+
+.regex-tab-header {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  font-weight: 700;
+}
+
+/* ===================================================
+   PAGE HEADER
+=================================================== */
+
+.regex-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  margin-bottom: 1.8rem;
+  padding: 0.7rem 1.5rem;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(135deg, #fff7ed, #ffffff);
+
+  border: 1px solid rgba(255,183,77,0.28);
+
+  box-shadow:
+    0 8px 24px rgba(255,122,24,0.08);
+}
+
+/* ===================================================
+   TITLE SECTION
+=================================================== */
+
+.regex-page-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.regex-page-title h3 {
+  margin: 0;
+
+  font-size: 1.25rem;
+  font-weight: 800;
+
+  color: #ea580c;
+}
+
+.regex-page-title p {
+  margin-top: 0.3rem;
+
+  color: #78716c;
+  font-size: 0.92rem;
+}
+
+/* ===================================================
+   ICON BOX
+=================================================== */
+
+.regex-icon-box {
+  width: 56px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 18px;
+
+  background:
+    linear-gradient(135deg, #ff7a18, #ffb347);
+
+  color: white;
+
+  font-size: 1.3rem;
+
+  box-shadow:
+    0 10px 24px rgba(255,122,24,0.25);
+}
+
+/* ===================================================
+   STATUS BADGE
+=================================================== */
+
+.regex-status-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+
+  padding: 0.7rem 1rem;
+
+  border-radius: 999px;
+
+  background: #ecfdf5;
+
+  color: #047857;
+
+  border: 1px solid #a7f3d0;
+
+  font-weight: 700;
+  font-size: 0.88rem;
+}
+
+/* ===================================================
+   REGEX GRID
+=================================================== */
+
+.regex-grid-modern {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(420px,1fr));
+  gap: 1.5rem;
+}
+
+/* ===================================================
+   CARD
+=================================================== */
+
+.regex-card-modern {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 24px;
+
+  background:
+    linear-gradient(145deg, #ffffff, #fffaf5);
+
+  border: 1px solid rgba(255,183,77,0.18);
+
+  overflow: hidden;
+
+  box-shadow:
+    0 12px 30px rgba(15,23,42,0.06);
+
+  transition: all 0.28s ease;
+}
+
+.regex-card-modern:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 18px 36px rgba(255,122,24,0.12);
+}
+
+/* ===================================================
+   CARD TOP
+=================================================== */
+
+.regex-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 1.2rem 1.3rem;
+
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.regex-card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  color: #1f2937;
+}
+
+.regex-card-title i {
+  color: #ff7a18;
+  font-size: 1rem;
+}
+
+/* ===================================================
+   CHIP
+=================================================== */
+
+.regex-chip {
+  padding: 0.45rem 0.85rem;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(135deg, #ffedd5, #fff7ed);
+
+  color: #ea580c;
+
+  font-size: 0.76rem;
+  font-weight: 700;
+
+  border: 1px solid #fed7aa;
+}
+
+.regex-chip-secondary {
+  background:
+    linear-gradient(135deg, #ecfeff, #f0fdfa);
+
+  color: #0f766e;
+
+  border: 1px solid #99f6e4;
+}
+
+/* ===================================================
+   BODY
+=================================================== */
+
+.regex-card-body {
+  padding: 1.2rem;
+}
+.regex-add-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;   /* 👈 input aur add button ke beech gap */
+  margin-bottom: 16px;
+}
+
+/* Input proper width */
+.regex-add-row .p-inputtext {
+  flex: 1;
+}
+
+/* Add button alignment */
+.regex-add-row .p-button {
+  min-width: 110px;
+  height: 44px;
+  background-color: orange;
+  border: none;
+}
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width: 768px) {
+
+  .regex-page-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .regex-grid-modern {
+    grid-template-columns: 1fr;
+  }
+
+  .regex-page-title {
+    align-items: flex-start;
+  }
+}
+
+/* ===================================================
+   RESPONSIVE
+=================================================== */
+
+@media (max-width: 768px) {
+
+  .settings-container {
+    padding: 1.2rem;
+    border-radius: 20px;
+  }
+
+  .settings-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-actions {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .save-btn-modern,
+  .push-btn-modern {
+    width: 100%;
+  }
+
+  .settings-heading h2 {
+    font-size: 1.6rem;
+  }
+}
