@@ -295,6 +295,7 @@
   border-bottom: 1px solid #f5e7d6 !important;
   padding: 11px 12px !important;
   background: rgba(255,255,255,0.92) !important;
+  text-align: center;
 }
 
 .bs-table .p-datatable-tbody > tr:nth-child(even) > td {

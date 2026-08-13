@@ -308,6 +308,7 @@
   border-bottom: 1px solid #e5e7eb !important;
   background: #ffffff !important;
   transition: all 0.2s ease;
+  text-align: center;
 }
 .pd-table .p-datatable-tbody > tr:nth-child(even) > td {
   background: #fffaf5 !important;
