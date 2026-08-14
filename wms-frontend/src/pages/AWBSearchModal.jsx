@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../styles/AWBSearchModal.css";
+import { useMachine } from "../context/MachineContext";
 
 const API = "http://localhost:5001/api";
 
@@ -21,14 +22,17 @@ function val(v) {
   return v;
 }
 
-// ─── Fetch single AWB — merges parcels + production + sort_events ─────────────
+// ─── Fetch single AWB — parcels (primary_bin_data) ONLY ───────────────────────
+// Production report and sort events were removed — this now only queries
+// /parcels, and every field shown comes from that one source.
 
-async function fetchAWBData(wbn) {
-  const results = { parcel: null, production: null, sortEvent: null, errors: [] };
+async function fetchAWBData(wbn, machine_id) {
+  const results = { parcel: null, errors: [] };
 
-  // 1. Parcels API
   try {
-    const r = await fetch(`${API}/parcels?search=${encodeURIComponent(wbn)}&limit=1`);
+    const r = await fetch(
+      `${API}/parcels?search=${encodeURIComponent(wbn)}&limit=1&machine_id=${encodeURIComponent(machine_id)}`
+    );
     const d = await r.json();
     if (d.rows && d.rows.length > 0) results.parcel = d.rows[0];
     else results.errors.push("No parcel record found");
@@ -36,227 +40,137 @@ async function fetchAWBData(wbn) {
     results.errors.push("Parcels API error: " + e.message);
   }
 
-  // 2. Production report API
-  try {
-    const r = await fetch(`${API}/production-report?search=${encodeURIComponent(wbn)}&limit=1`);
-    const d = await r.json();
-    if (d.rows && d.rows.length > 0) results.production = d.rows[0];
-  } catch (e) {
-    results.errors.push("Production API error: " + e.message);
-  }
-
-  // 3. Sort Events API
-  try {
-    const r = await fetch(`http://localhost:5001/sort-events?wbn=${encodeURIComponent(wbn)}&limit=10`);
-    const d = await r.json();
-    if (d.rows && d.rows.length > 0) results.sortEvent = d.rows;
-    else if (d.success && d.rows) results.sortEvent = d.rows;
-  } catch (e) {
-    results.errors.push("Sort Events API error: " + e.message);
-  }
-
   return results;
 }
 
-// ─── JSON Viewer ──────────────────────────────────────────────────────────────
+// ─── Results Table ─────────────────────────────────────────────────────────────
+// Columns: awb, item_id, expected_bag, final_bag, machine_id, reason,
+// status, created_at — all sourced from /parcels only.
 
-function JsonViewer({ data, title }) {
-  const [open, setOpen] = useState(false);
-  if (!data) return <span className="awb-muted">—</span>;
-  return (
-    <>
-      <button className="awb-json-btn" onClick={() => setOpen(true)}>👁 View</button>
-      {open && (
-        <div className="awb-json-overlay" onClick={() => setOpen(false)}>
-          <div className="awb-json-modal" onClick={e => e.stopPropagation()}>
-            <div className="awb-json-modal__hdr">
-              <span>{title}</span>
-              <button onClick={() => setOpen(false)}>✕</button>
-            </div>
-            <pre className="awb-json-modal__body">
-              {typeof data === "string" ? data : JSON.stringify(data, null, 2)}
-            </pre>
-          </div>
-        </div>
-      )}
-    </>
-  );
-}
-
-// ─── Result Row (single AWB merged data) ─────────────────────────────────────
-
-function ResultCard({ wbn, data, loading, error }) {
-  const [sortOpen, setSortOpen] = useState(false);
-  const p  = data?.parcel;
-  const pr = data?.production;
-  const se = data?.sortEvent;
-
-  if (loading) return (
-    <div className="awb-result-card">
-      <div className="awb-result-card__loading">
-        <div className="awb-spinner" />
-        <span>Fetching data for <b>{wbn}</b>…</span>
-      </div>
-    </div>
-  );
-
-  if (error || (!p && !pr)) return (
-    <div className="awb-result-card awb-result-card--error">
-      <div className="awb-result-card__wbn">{wbn}</div>
-      <div className="awb-result-card__err">
-        ⚠️ {error || "No records found across all data sources."}
-      </div>
-      {data?.errors?.length > 0 && (
-        <ul className="awb-result-card__errs">
-          {data.errors.map((e, i) => <li key={i}>{e}</li>)}
-        </ul>
-      )}
-    </div>
-  );
+function ResultsTable({ results }) {
+  const [detailsOpen, setDetailsOpen] = useState(null); // index of expanded row
 
   return (
-    <div className="awb-result-card">
-      {/* WBN header */}
-      <div className="awb-result-card__header">
-        <span className="awb-result-card__wbn">{val(p?.wbn || pr?.wbn || wbn)}</span>
-        <div className="awb-result-card__badges">
-          {p?.sort === "SORTED"   && <span className="awb-badge awb-badge--sorted">SORTED</span>}
-          {p?.sort === "REJECTED" && <span className="awb-badge awb-badge--rej">REJECTED</span>}
-          {p?.mode && <span className="awb-badge awb-badge--mode">{p.mode}</span>}
-        </div>
-      </div>
+    <div className="awb-results">
+      <table className="awb-results-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>AWB</th>
+            <th>Item ID</th>
+            <th>Expected Bag</th>
+            <th>Final Bag</th>
+            <th>Machine ID</th>
+            <th>Reason</th>
+            <th>Status</th>
+            <th>Created (IST)</th>
+            <th>Details</th>
+          </tr>
+        </thead>
+        <tbody>
+          {results.map((r, i) => {
+            if (r.loading) {
+              return (
+                <tr key={i}>
+                  <td>{i + 1}</td>
+                  <td colSpan={9}>
+                    <div className="awb-result-card__loading" style={{ padding: "8px 0" }}>
+                      <div className="awb-spinner awb-spinner--sm" />
+                      <span>Fetching data for <b>{r.wbn}</b>…</span>
+                    </div>
+                  </td>
+                </tr>
+              );
+            }
 
-      {/* Main data grid */}
-      <div className="awb-data-grid">
+            const p = r.data?.parcel;
+            const notFound = r.error || !p;
 
-        {/* ── Parcel dimensions & bag ── */}
-        <div className="awb-section">
-          <div className="awb-section__title">📦 Parcel Data</div>
-          <div className="awb-fields">
-            <div className="awb-field"><span className="awb-field__lbl">Expected Bag</span><span className="awb-field__val">{val(p?.expected_bag)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Final Bag</span><span className="awb-field__val">{val(p?.final_bag)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Reason</span>
-              <span className="awb-field__val">
-                {p?.reason ? <span className="awb-reason-tag">{p.reason.toUpperCase()}</span> : "—"}
-              </span>
-            </div>
-            <div className="awb-field"><span className="awb-field__lbl">Weight (g)</span><span className="awb-field__val">{val(p?.weight)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">L (cm)</span><span className="awb-field__val">{val(p?.length)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">B (cm)</span><span className="awb-field__val">{val(p?.width)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">H (cm)</span><span className="awb-field__val">{val(p?.height)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Volume</span><span className="awb-field__val">{val(p?.volume)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Real Volume</span><span className="awb-field__val">{val(p?.real_volume)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Scan Time</span><span className="awb-field__val">{fmtIST(p?.scantime)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Sort Time</span><span className="awb-field__val">{fmtIST(p?.sorttime)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Created (IST)</span><span className="awb-field__val">{fmtIST(p?.created_at)}</span></div>
-          </div>
-        </div>
+            if (notFound) {
+              return (
+                <tr key={i} className="awb-row--error">
+                  <td>{i + 1}</td>
+                  <td>{r.wbn}</td>
+                  <td colSpan={8}>
+                    ⚠️ {r.error || "No parcel record found."}
+                  </td>
+                </tr>
+              );
+            }
 
-        {/* ── Production / Audit ── */}
-        <div className="awb-section">
-          <div className="awb-section__title">🏭 Production / Audit</div>
-          <div className="awb-fields">
-            <div className="awb-field"><span className="awb-field__lbl">Tracking ID</span><span className="awb-field__val">{val(pr?.tracking_id)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Bag Code</span><span className="awb-field__val">{val(pr?.bag_code)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">PTL ID</span><span className="awb-field__val">{val(pr?.ptl_id)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Sorter ID</span><span className="awb-field__val">{val(pr?.sorter_id)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Location</span><span className="awb-field__val">{val(pr?.sorter_location)}</span></div>
-            <div className="awb-field"><span className="awb-field__lbl">Rejection Type</span>
-              <span className="awb-field__val">
-                {pr?.rejection_type ? <span className="awb-reason-tag">{pr.rejection_type}</span> : "—"}
-              </span>
-            </div>
-            <div className="awb-field"><span className="awb-field__lbl">Primary Status</span>
-              <span className="awb-field__val">
-                {pr?.primary_status === true ? <span className="awb-ok">✔ Pass</span> : pr?.primary_status === false ? <span className="awb-fail">✖ Fail</span> : "—"}
-              </span>
-            </div>
-            <div className="awb-field"><span className="awb-field__lbl">Secondary Status</span>
-              <span className="awb-field__val">
-                {pr?.secondary_status === true ? <span className="awb-ok">✔ Pass</span> : pr?.secondary_status === false ? <span className="awb-fail">✖ Fail</span> : "—"}
-              </span>
-            </div>
-            <div className="awb-field"><span className="awb-field__lbl">Image Status</span>
-              <span className="awb-field__val">
-                {pr?.image_status === true ? <span className="awb-ok">✔ Pass</span> : pr?.image_status === false ? <span className="awb-fail">✖ Fail</span> : "—"}
-              </span>
-            </div>
-          </div>
-        </div>
+            const awb          = val(p?.wbn || r.wbn);
+            const item_id       = val(p?.item_id);
+            const expected_bag  = val(p?.expected_bag);
+            const final_bag     = val(p?.final_bag);
+            const machine_id    = val(p?.machine_id);
+            const reason        = p?.reason;
+            const status        = p?.sort;
+            const created_at    = fmtIST(p?.created_at);
 
-      </div>
+            const isOpen = detailsOpen === i;
 
-      {/* ── Payloads row ── */}
-      <div className="awb-payloads">
-        <div className="awb-payload-item">
-          <span className="awb-payload-item__lbl">Fetch Payload</span>
-          <JsonViewer data={pr?.primary_payload} title="Fetch Payload" />
-        </div>
-        <div className="awb-payload-item">
-          <span className="awb-payload-item__lbl">Primary Response</span>
-          <JsonViewer data={pr?.primary_response} title="Primary Response" />
-        </div>
-        <div className="awb-payload-item">
-          <span className="awb-payload-item__lbl">Secondary Payload</span>
-          <JsonViewer data={pr?.secondary_payload} title="Secondary Payload" />
-        </div>
-        <div className="awb-payload-item">
-          <span className="awb-payload-item__lbl">Secondary Response</span>
-          <JsonViewer data={pr?.secondary_response} title="Secondary Response" />
-        </div>
-      </div>
+            return (
+              <React.Fragment key={i}>
+                <tr>
+                  <td>{i + 1}</td>
+                  <td>{awb}</td>
+                  <td>{item_id}</td>
+                  <td>{expected_bag !== "—" ? <span className="awb-bag-tag">{expected_bag}</span> : "—"}</td>
+                  <td>{final_bag !== "—" ? <span className="awb-bag-tag awb-bag-tag--final">{final_bag}</span> : "—"}</td>
+                  <td>{machine_id}</td>
+                  <td>{reason ? <span className="awb-reason-tag">{reason.toUpperCase()}</span> : "—"}</td>
+                  <td>
+                    {status === "SORTED" && <span className="awb-badge awb-badge--sorted">SORTED</span>}
+                    {status === "REJECTED" && <span className="awb-badge awb-badge--rej">REJECTED</span>}
+                    {status && status !== "SORTED" && status !== "REJECTED" && <span>{status}</span>}
+                    {!status && "—"}
+                  </td>
+                  <td>{created_at}</td>
+                  <td>
+                    <button
+                      className="awb-json-btn"
+                      onClick={() => setDetailsOpen(isOpen ? null : i)}
+                    >
+                      {isOpen ? "▲ Hide" : "▼ More"}
+                    </button>
+                  </td>
+                </tr>
 
-      {/* ── Sort Events ── */}
-      {se && se.length > 0 && (
-        <div className="awb-sort-events">
-          <button className="awb-sort-events__toggle" onClick={() => setSortOpen(o => !o)}>
-            📋 Sort Events ({se.length}) {sortOpen ? "▲" : "▼"}
-          </button>
-          {sortOpen && (
-            <div className="awb-sort-events__table-wrap">
-              <table className="awb-sort-events__table">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Job ID</th>
-                    <th>Event Type</th>
-                    <th>Details</th>
-                    <th>Created (IST)</th>
+                {isOpen && (
+                  <tr className="awb-row--details">
+                    <td colSpan={10}>
+                      <div className="awb-details-panel">
+                        <div className="awb-details-section">
+                          <div className="awb-section__title">📦 Parcel Data</div>
+                          <div className="awb-fields">
+                            <div className="awb-field"><span className="awb-field__lbl">Weight (g)</span><span className="awb-field__val">{val(p?.weight)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">L (cm)</span><span className="awb-field__val">{val(p?.length)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">B (cm)</span><span className="awb-field__val">{val(p?.width)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">H (cm)</span><span className="awb-field__val">{val(p?.height)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">Volume</span><span className="awb-field__val">{val(p?.volume)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">Real Volume</span><span className="awb-field__val">{val(p?.real_volume)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">Scan Time</span><span className="awb-field__val">{fmtIST(p?.scantime)}</span></div>
+                            <div className="awb-field"><span className="awb-field__lbl">Sort Time</span><span className="awb-field__val">{fmtIST(p?.sorttime)}</span></div>
+                          </div>
+                        </div>
+
+                        {p?.imagepath && p.imagepath !== "image_missing" && (
+                          <div className="awb-image-row">
+                            <span className="awb-payload-item__lbl">Parcel Image</span>
+                            <a href={`http://localhost:5001${p.imagepath}`} target="_blank" rel="noreferrer" className="awb-json-btn">
+                              🖼 View Image
+                            </a>
+                          </div>
+                        )}
+                      </div>
+                    </td>
                   </tr>
-                </thead>
-                <tbody>
-                  {se.map((ev, i) => (
-                    <tr key={i}>
-                      <td>{i + 1}</td>
-                      <td>{val(ev.job_id)}</td>
-                      <td>{ev.event_type ? <span className="awb-event-tag">{ev.event_type}</span> : "—"}</td>
-                      <td><JsonViewer data={ev.details} title={`Event #${i + 1} Details`} /></td>
-                      <td>{fmtIST(ev.created_at)}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Parcel image */}
-      {p?.imagepath && p.imagepath !== "image_missing" && (
-        <div className="awb-image-row">
-          <span className="awb-payload-item__lbl">Parcel Image</span>
-          <a href={`http://localhost:5001${p.imagepath}`} target="_blank" rel="noreferrer" className="awb-json-btn">
-            🖼 View Image
-          </a>
-        </div>
-      )}
-
-      {/* Error notes */}
-      {data?.errors?.length > 0 && (
-        <div className="awb-partial-warn">
-          ⚠️ Some data sources unavailable: {data.errors.join(" · ")}
-        </div>
-      )}
+                )}
+              </React.Fragment>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 }
@@ -264,13 +178,16 @@ function ResultCard({ wbn, data, loading, error }) {
 // ─── Main Modal Component ─────────────────────────────────────────────────────
 
 export default function AWBSearchModal({ onClose }) {
+  // Selected machine — global state from Navbar's dropdown. Required by
+  // /parcels.
+  const { selectedMachine } = useMachine();
+
   const [tab, setTab] = useState("single"); // "single" | "multiple"
 
   // Single
   const [singleInput, setSingleInput] = useState("");
-  const [singleResult, setSingleResult] = useState(null);
+  const [singleResults, setSingleResults] = useState([]); // array of one, for shared table renderer
   const [singleLoading, setSingleLoading] = useState(false);
-  const [singleError, setSingleError] = useState("");
   const singleRef = useRef(null);
 
   // Multiple
@@ -288,16 +205,13 @@ export default function AWBSearchModal({ onClose }) {
   // ── Single search ────────────────────────────────────────────────────────
   const handleSingleSearch = async () => {
     const wbn = singleInput.trim();
-    if (!wbn) return;
+    if (!wbn || !selectedMachine) return;
     setSingleLoading(true);
-    setSingleError("");
-    setSingleResult(null);
-    const data = await fetchAWBData(wbn);
+    setSingleResults([{ wbn, data: null, loading: true, error: null }]);
+    const data = await fetchAWBData(wbn, selectedMachine);
     setSingleLoading(false);
-    if (!data.parcel && !data.production) {
-      setSingleError("No records found for this AWB across all data sources.");
-    }
-    setSingleResult({ wbn, data });
+    const error = !data.parcel ? "No parcel record found for this AWB." : null;
+    setSingleResults([{ wbn, data, loading: false, error }]);
   };
 
   const handleSingleKeyDown = (e) => {
@@ -306,6 +220,8 @@ export default function AWBSearchModal({ onClose }) {
 
   // ── Multiple search ──────────────────────────────────────────────────────
   const handleMultiSearch = async () => {
+    if (!selectedMachine) return;
+
     const lines = multiInput
       .split(/[\n,\s]+/)
       .map(s => s.trim())
@@ -318,14 +234,13 @@ export default function AWBSearchModal({ onClose }) {
     setMultiLoading(true);
 
     // Fetch all concurrently
-    const settled = await Promise.allSettled(lines.map(wbn => fetchAWBData(wbn)));
+    const settled = await Promise.allSettled(lines.map(wbn => fetchAWBData(wbn, selectedMachine)));
 
     setMultiResults(lines.map((wbn, i) => {
       const res = settled[i];
       if (res.status === "fulfilled") {
         const data = res.value;
-        const error = (!data.parcel && !data.production)
-          ? "No records found." : null;
+        const error = !data.parcel ? "No parcel record found." : null;
         return { wbn, data, loading: false, error };
       } else {
         return { wbn, data: null, loading: false, error: res.reason?.message || "Fetch failed" };
@@ -344,6 +259,7 @@ export default function AWBSearchModal({ onClose }) {
           <div className="awb-modal__header-left">
             <span className="awb-modal__header-icon">🔍</span>
             <span className="awb-modal__title">Search Shipments</span>
+            {selectedMachine && <span className="awb-badge awb-badge--mode">{selectedMachine.toUpperCase()}</span>}
           </div>
           <button className="awb-modal__close" onClick={onClose}>✕</button>
         </div>
@@ -383,7 +299,7 @@ export default function AWBSearchModal({ onClose }) {
                   />
                   {singleInput && (
                     <button className="awb-single__clear"
-                      onClick={() => { setSingleInput(""); setSingleResult(null); setSingleError(""); }}>
+                      onClick={() => { setSingleInput(""); setSingleResults([]); }}>
                       ✕
                     </button>
                   )}
@@ -391,31 +307,22 @@ export default function AWBSearchModal({ onClose }) {
                 <button
                   className="awb-single__search-btn"
                   onClick={handleSingleSearch}
-                  disabled={!singleInput.trim() || singleLoading}
+                  disabled={!singleInput.trim() || singleLoading || !selectedMachine}
                 >
                   {singleLoading ? <span className="awb-spinner awb-spinner--sm" /> : "🔍"} Search
                 </button>
-                {singleResult && (
+                {singleResults.length > 0 && (
                   <button className="awb-single__clear-btn"
-                    onClick={() => { setSingleResult(null); setSingleError(""); setSingleInput(""); }}>
+                    onClick={() => { setSingleResults([]); setSingleInput(""); }}>
                     ↺ Clear
                   </button>
                 )}
               </div>
 
-              <p className="awb-hint">Press Enter or click Search. Fetches from Parcels, Production Report, and Sort Events simultaneously.</p>
+              <p className="awb-hint">Press Enter or click Search. Searches the Parcels table for {selectedMachine ? selectedMachine.toUpperCase() : "the selected machine"}.</p>
 
               {/* Result */}
-              {(singleLoading || singleResult) && (
-                <div className="awb-results">
-                  <ResultCard
-                    wbn={singleInput.trim()}
-                    data={singleResult?.data}
-                    loading={singleLoading}
-                    error={singleError}
-                  />
-                </div>
-              )}
+              {singleResults.length > 0 && <ResultsTable results={singleResults} />}
             </div>
           )}
 
@@ -445,25 +352,13 @@ export default function AWBSearchModal({ onClose }) {
                 <button
                   className="awb-single__search-btn"
                   onClick={handleMultiSearch}
-                  disabled={!multiInput.trim() || multiLoading}
+                  disabled={!multiInput.trim() || multiLoading || !selectedMachine}
                 >
                   {multiLoading ? <span className="awb-spinner awb-spinner--sm" /> : "🔍"} Search All
                 </button>
               </div>
 
-              {multiResults.length > 0 && (
-                <div className="awb-results">
-                  {multiResults.map((r, i) => (
-                    <ResultCard
-                      key={i}
-                      wbn={r.wbn}
-                      data={r.data}
-                      loading={r.loading}
-                      error={r.error}
-                    />
-                  ))}
-                </div>
-              )}
+              {multiResults.length > 0 && <ResultsTable results={multiResults} />}
             </div>
           )}
 
