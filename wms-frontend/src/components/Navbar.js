@@ -172,7 +172,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faCircle} />
           </span>
           <span className="machine-readout__label">LIVE</span>
-          <span className="machine-readout__id">{selectedMachine.toUpperCase()}</span>
+          <span className="machine-readout__id">{selectedMachine.toUpperCase()}<span></span></span>
         </div>
       )}
     </div>
