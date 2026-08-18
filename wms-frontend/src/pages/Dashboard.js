@@ -17,6 +17,7 @@ import AlarmDashboard from "./AlarmDashboard";
 import AlarmHistory from "./AlarmHistory";
 import SorterDashboard from "./SorterDashboard";
 import BarCodeSearch from "./BarCodeSearch";
+import SystemHealth from "./SystemHealth";
 
 
 
@@ -102,6 +103,8 @@ const Dashboard = () => {
                 return <AlarmHistory />;   
             case "Barcode Lookup":
                 return <BarCodeSearch />;  
+            case "System Health":
+                return <SystemHealth />;
             default:
                 return <h3>{activeComponent} Page</h3>;
         }

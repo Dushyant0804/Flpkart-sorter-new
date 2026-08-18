@@ -797,6 +797,14 @@ const ProductionReport = () => {
             style={{ minWidth: 60 }}
             body={(_, opts) => (page - 1) * limit + opts.rowIndex + 1}
           />
+          <Column
+              field="machine_id"
+              header="Machine Id"
+              style={{ minWidth: 155 }}
+              body={r => r.machine_id
+                ? <span className="pr-machine-tag">{String(r.machine_id).toUpperCase()}</span>
+                : <span className="bs-cell-muted">—</span>}
+            />
           <Column field="wbn" header="WBN" style={{ minWidth: 155 }}
             body={r => r.wbn || <span className="pd-cell-muted">—</span>} />
           <Column field="item_id" header="item id" style={{ minWidth: 155 }}

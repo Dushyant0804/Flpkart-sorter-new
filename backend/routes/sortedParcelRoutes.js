@@ -25,7 +25,7 @@ async function sortedParcelRoutes(fastify) {
         startTime,
         endTime,
       } = req.query;
-console.log(req.query)
+
       page  = parseInt(page);
       limit = parseInt(limit);
       const offset = (page - 1) * limit;

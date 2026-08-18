@@ -625,9 +625,6 @@ const exportData = () => {
 
           {/* Row 1: Date & Time (via drawer trigger) + WBN */}
           <div className="pr-filter-row">
-
-
-
             <div className="pr-field-group">
               <label className="pr-field-label">WBN Number</label>
               <div className="pr-field-input-wrap">
@@ -750,8 +747,16 @@ const exportData = () => {
             style={{ minWidth: 60, textAlign: "center" }}
             body={(_, opts) => (page - 1) * limit + opts.rowIndex + 1}
           />
+          <Column
+          field="machine_id"
+          header="Machine Id"
+          style={{ minWidth: 120 }}
+          body={r => r.machine_id
+            ? <span className="pr-machine-tag">{String(r.machine_id).toUpperCase()}</span>
+            : <span className="bs-cell-muted">—</span>}
+        />
+        <Column field="infeed"   header="Infeed"       style={{ minWidth: 160 }} />
           <Column field="wbn"      header="WBN"          style={{ minWidth: 160 }} />
-          <Column field="infeed"   header="Infeed"       style={{ minWidth: 160 }} />
           {/* <Column header="Mode"    body={modeBadge}      style={{ minWidth: 80  }} /> */}
           {/* <Column header="Routing"      style={{ minWidth: 100 }} */}
                       {/* body={r => jsonBtn(r.routing, "Routing Data")} /> */}
@@ -780,14 +785,14 @@ const exportData = () => {
           {/* <Column header="Volume"  body={r => r.volume    || "—"} style={{ minWidth: 80 }} />
           <Column header="Real Vol" body={r => r.real_volume || "—"} style={{ minWidth: 80 }} /> */}
           {dimensionColumns.map(col => (
-    <Column
-        key={col.field}
-        field={col.field}
-        header={col.header}
-        body={r => r[col.field] || "—"}
-        hidden={!showDimensions}
-    />
-))}
+          <Column
+              key={col.field}
+              field={col.field}
+              header={col.header}
+              body={r => r[col.field] || "—"}
+              hidden={!showDimensions}
+          />
+      ))}
           {/* <Column header="Scan Time"     body={r => fmtIST(r.scantime)}   style={{ minWidth: 155 }} /> */}
           <Column header="Sort Time"     body={r => fmtIST(r.sorttime)}   style={{ minWidth: 155 }} />
           <Column header="Created (IST)" body={r => fmtIST(r.created_at)} style={{ minWidth: 155 }} />

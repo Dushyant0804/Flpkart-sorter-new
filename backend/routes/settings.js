@@ -227,20 +227,21 @@ fastify.post("/settings-push-nodered", async (req, reply) => {
 
 // ── GET Machine List ───────────────────────────────────────────────────────
 fastify.get("/machineList", async (req, reply) => {
-
   try {
-
     const res = await fastify.pg.query(
-      `SELECT DISTINCT machine_id
+      `SELECT DISTINCT machine_id, installation_id
        FROM settings
        WHERE machine_id IS NOT NULL
        ORDER BY machine_id`
     );
 
-    return res.rows.map((r) => r.machine_id);
+    return res.rows.map((r) => ({
+      machine_id: r.machine_id,
+      installation_id: r.installation_id,
+    }));
 
+    // Or simply: return res.rows;
   } catch (err) {
-
     fastify.log.error(
       "Failed to fetch machine list:",
       err.message
@@ -248,7 +249,7 @@ fastify.get("/machineList", async (req, reply) => {
 
     return reply.code(500).send({
       error: true,
-      message: err.message
+      message: err.message,
     });
   }
 });

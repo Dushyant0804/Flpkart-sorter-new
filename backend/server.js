@@ -111,6 +111,7 @@ const removeFromContainerRoutes = require("./routes/removeFromContainerRoutes");
 const chuteMappingsRoutes = require("./routes/chuteMappings");
 const sortedBulkDataRoutes = require("./routes/sortedBulkDataRoutes");
 const healthCheckRoute = require("./routes/healthCheckRoutes")
+const systemHealthRoutes = require("./routes/systemHealthCheckRoute")
 
 
 const { FastifyAdapter } = require("@bull-board/fastify");
@@ -179,6 +180,7 @@ fastify.register(bagsealEventsRoutes, { prefix: "/api" });
 fastify.register(parcelRoutes, { prefix: "/api" });
 fastify.register(alarmHistoryRoutes, { prefix: "/api" });
 fastify.register(sortedBulkDataRoutes, { prefix: "/api" });
+fastify.register(systemHealthRoutes, { prefix: "/api" });
 fastify.register(chuteThresholdRoutes);
 fastify.register(chuteClosingConfigRoutes);
 fastify.register(labelConfigRoutes);
@@ -188,6 +190,7 @@ fastify.register(bagCloseRoutes);
 fastify.register(removeFromContainerRoutes);
 fastify.register(chuteMappingsRoutes);
 fastify.register(healthCheckRoute);
+
 
 
 let cachedSettings = {

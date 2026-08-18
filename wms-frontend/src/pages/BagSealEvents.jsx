@@ -610,6 +610,14 @@ const handleApplyDate = (start, end) => {
             body={(_, opts) => (page - 1) * limit + opts.rowIndex + 1}
           />
           <Column
+              field="machine_id"
+              header="Machine Id"
+              style={{ minWidth: 120 }}
+              body={r => r.machine_id
+                ? <span className="pr-machine-tag">{String(r.machine_id).toUpperCase()}</span>
+                : <span className="bs-cell-muted">—</span>}
+            />
+          <Column
             field="chute_id"
             header="Chute Id"
             style={{ minWidth: 100 }}

@@ -100,7 +100,7 @@ const Navbar = () => {
               },
             }}
             sx={{
-              minWidth: 120,
+              minWidth: 230,
               bgcolor: "#ffffff",
               borderRadius: "10px",
               fontWeight: 800,
@@ -137,7 +137,7 @@ const Navbar = () => {
             {machines.map((m) => (
               <MenuItem
                 key={m}
-                value={m}
+                value={(m.machine_id)}
                 sx={{
                   fontWeight: 700,
                   fontSize: "0.88rem",
@@ -154,7 +154,11 @@ const Navbar = () => {
                   },
                 }}
               >
-                {m.toUpperCase()}
+              <span>{(m.machine_id).toUpperCase()}</span>&nbsp;
+  {m.installation_id && (
+    <span style={{ fontSize: "0.75rem", color: "#171616", fontWeight: 600 }}>
+      ({m.installation_id})
+    </span>)}
               </MenuItem>
             ))}
           </Select>

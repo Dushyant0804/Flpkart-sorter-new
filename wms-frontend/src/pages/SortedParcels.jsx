@@ -242,6 +242,14 @@ const SortedParcels = () => {
           scrollHeight="65vh"
         >
           <Column
+              field="machine_id"
+              header="Machine Id"
+              style={{ minWidth: 120 }}
+              body={r => r.machine_id
+                ? <span className="pr-machine-tag">{String(r.machine_id).toUpperCase()}</span>
+                : <span className="bs-cell-muted">—</span>}
+            />
+          <Column
             field="wbn"
             header="WBN"
             style={{ minWidth: 155 }}

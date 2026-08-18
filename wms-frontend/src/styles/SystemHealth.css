@@ -1,0 +1,325 @@
+/* =====================================================================
+   SYSTEM HEALTH — Cleaned & Upgraded Typography
+   ===================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Sora:wght@600;700;800&family=JetBrains+Mono:wght@500;600;700;800&display=swap');
+
+.sysh-page {
+    --paper: #FFF9F4;
+    --surface: rgba(255,255,255,.97);
+    --line: rgba(36,28,21,.09);
+    --ink: #241C15;
+    --text-soft: #8C7C6D;
+    --amber: #F4600A;
+    --amber-deep: #C2410C;
+    --red-deep: #E24A3A;
+    --green: #16A34A;
+
+    /* Primary Body Typography */
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: var(--ink);
+    background:
+        radial-gradient(ellipse 900px 520px at 12% -8%, rgba(244,96,10,.10), transparent 62%),
+        radial-gradient(ellipse 700px 480px at 100% 8%, rgba(255,107,87,.08), transparent 60%),
+        linear-gradient(160deg,#FFF9F4 0%,#FFEFE4 45%,#FFF3EE 100%);
+    min-height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ================= HEADER ================= */
+
+.sysh-header {
+    background: var(--surface);
+    border: 1px solid rgba(255,255,255,.9);
+    border-radius: 20px;
+    padding: 26px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    backdrop-filter: blur(6px);
+    box-shadow:
+        0 1px 2px rgba(36,28,21,.04),
+        0 20px 46px rgba(220,90,20,.10);
+}
+
+.sysh-header__title {
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+    color: var(--ink);
+}
+
+.sysh-header__subtitle {
+    margin: 4px 0 0;
+    font-size: 13.5px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--text-soft);
+}
+
+.sysh-header__timestamp {
+    margin: 8px 0 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #A89B8C;
+}
+
+.sysh-header__right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.sysh-live-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: #0F7A3D;
+    background: rgba(22,163,74,.09);
+    border: 1px solid rgba(22,163,74,.3);
+    padding: 8px 16px;
+    border-radius: 30px;
+}
+
+.sysh-live-dot {
+    width: 8px; 
+    height: 8px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 9px 2px rgba(22,163,74,.55);
+    animation: syshBlink 1.6s infinite;
+}
+
+@keyframes syshBlink {
+    0%,100% { opacity: 1; }
+    50% { opacity: .35; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .sysh-live-dot { animation: none; }
+}
+
+.sysh-refresh-btn {
+    height: 40px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--amber), var(--red-deep));
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+    box-shadow: 0 10px 24px rgba(226,74,58,.26);
+    transition: .2s ease;
+}
+
+.sysh-refresh-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 28px rgba(226,74,58,.34);
+}
+
+.sysh-refresh-btn:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+}
+
+/* ================= GRID ================= */
+
+.sysh-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+/* ================= METRIC CARD ================= */
+
+.sysh-card {
+    position: relative;
+    background: var(--surface);
+    border: 1px solid rgba(255,255,255,.9);
+    border-radius: 24px;
+    padding: 26px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    backdrop-filter: blur(6px);
+    box-shadow:
+        0 1px 2px rgba(36,28,21,.04),
+        0 12px 28px rgba(36,28,21,.06);
+    transition: transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+}
+
+.sysh-card:hover {
+    transform: translateY(-6px);
+    border-color: color-mix(in srgb, var(--accent) 35%, transparent);
+    box-shadow:
+        0 1px 2px rgba(36,28,21,.04),
+        0 24px 46px color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+.sysh-card__topbar {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--accent), color-mix(in srgb, var(--accent) 50%, transparent));
+}
+
+.sysh-card__icon {
+    width: 68px; 
+    height: 68px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--accent), color-mix(in srgb, var(--accent) 80%, black));
+    color: #fff;
+    font-size: 26px;
+    box-shadow: 0 10px 15px color-mix(in srgb, var(--accent) 35%, transparent);
+    margin-bottom: 20px;
+}
+
+.sysh-card__gauge {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 800;
+}
+
+/* Custom Text inside Circular Bar */
+.CircularProgressbar .CircularProgressbar-text {
+    font-family: 'JetBrains Mono', monospace !important;
+    font-weight: 800 !important;
+    font-size: 19px !important;
+    letter-spacing: -0.04em !important;
+    fill: var(--ink) !important;
+}
+
+.sysh-card__title {
+    font-family: 'Sora', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    text-align: center;
+}
+
+.sysh-card__status-row {
+    margin-top: 12px;
+}
+
+.sysh-status-chip {
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 30px;
+    background: color-mix(in srgb, var(--accent) 10%, white);
+    color: var(--accent);
+    border: 1px solid color-mix(in srgb, var(--accent) 26%, transparent);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    font-size: 11.5px;
+    letter-spacing: 0.02em;
+}
+
+.sysh-card__divider {
+    width: 100%;
+    height: 1px;
+    background: var(--line);
+    margin: 20px 0 16px;
+}
+
+.sysh-card__stats {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.sysh-stat {
+    background: rgba(36,28,21,.03);
+    border-radius: 14px;
+    padding: 12px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.sysh-stat__icon {
+    font-size: 14px;
+    color: var(--accent);
+    margin-bottom: 2px;
+}
+
+.sysh-stat__label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 10.5px;
+    color: var(--text-soft);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.sysh-stat__value {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13.5px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+}
+
+/* ================= LOADING STATE ================= */
+
+.sysh-loading {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    color: var(--text-soft);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}
+
+.sysh-spinner {
+    width: 34px; 
+    height: 34px;
+    border-radius: 50%;
+    border: 3px solid rgba(244,96,10,.15);
+    border-top-color: #F4600A;
+    animation: syshSpin .8s linear infinite;
+}
+
+@keyframes syshSpin {
+    to { transform: rotate(360deg); }
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media(max-width: 640px) {
+    .sysh-header { flex-direction: column; align-items: flex-start; }
+    .sysh-header__right { width: 100%; justify-content: space-between; }
+    .sysh-refresh-btn { flex: 1; }
+}

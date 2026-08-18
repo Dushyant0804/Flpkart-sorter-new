@@ -13,6 +13,7 @@ import {
     faBox,
     faCog,
     faChartLine,
+    faLaptopMedical
 } from "@fortawesome/free-solid-svg-icons";
 import { icon } from "@fortawesome/fontawesome-svg-core";
 
@@ -39,6 +40,7 @@ if(localStorage.getItem('role') == 'admin') {
         // { name: "Sort Events", icon: faBox},
         // { name: "Configuration Settings", icon: faCog},
         { name: "Sorted Parcels", icon: faBox},
+        { name: "System Health", icon: faLaptopMedical },
     ];
 
 } else {
